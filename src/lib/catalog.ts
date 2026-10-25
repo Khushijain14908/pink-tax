@@ -1,5 +1,6 @@
 // Reads the scraped catalog (src/data/catalog.json, built by `npm run catalog`).
 import catalogData from "@/data/catalog.json";
+import productsData from "@/data/products.json";
 import type { Product } from "./products";
 import type { Comparison } from "./pinkTax";
 
@@ -42,4 +43,9 @@ export function catalogStats() {
     avgMarkupPct: avg === null ? null : Math.round(avg),
     generatedAt: catalog.generatedAt,
   };
+}
+
+/** Every scraped product (paired or not), for suggesting alternatives. */
+export function allProducts(): Product[] {
+  return productsData as Product[];
 }

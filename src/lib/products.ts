@@ -54,6 +54,17 @@ export function detectGender(title: string): Gender {
   return "neutral";
 }
 
+/** Gender from Amazon's category path (e.g. "Clothing > Women > Shoes"), for unlabeled titles. */
+export function categoryGender(raw: RawRecord): Gender {
+  const path = Array.isArray(raw.categories) ? raw.categories.join(" > ") : "";
+  return detectGender(path);
+}
+
+/** Departments where brands commonly sell a separate men's line next to their regular one. */
+export function hasGenderedLines(raw: RawRecord): boolean {
+  return /beauty|personal care|clothing|shoes|health/i.test(str(raw.department));
+}
+
 // Sizes are only in the title, so we parse the common formats. fl oz and oz are
 // treated as comparable, which is close enough for shampoo vs. shampoo.
 const SIZE_PATTERNS: [RegExp, UnitSize["unit"], number][] = [

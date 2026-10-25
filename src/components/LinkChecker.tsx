@@ -118,6 +118,8 @@ function Results({ result }: { result: CheckResult }) {
   const { product, counterpart, comparison, alternatives } = result;
   const v = VERDICTS[result.verdict];
   const isWomens = product.gender === "women";
+  const herLabel = result.womensUnlabeled ? "Standard" : "For Her";
+  const himLabel = result.womensUnlabeled ? "Men's Line" : "For Him";
 
   return (
     <section className="mt-12 space-y-6">
@@ -126,15 +128,21 @@ function Results({ result }: { result: CheckResult }) {
         <p className="mt-2 text-3xl font-extrabold text-gray-900">{v.title}</p>
         <p className="mt-1 text-gray-600">{v.note}</p>
         <p className="mt-2 text-sm text-gray-500">Brand: {product.brand || "Unknown"}</p>
+        {result.womensUnlabeled && counterpart && (
+          <p className="mt-2 text-sm text-gray-500">
+            This product isn&apos;t labeled &ldquo;women&apos;s&rdquo;, so we compared the brand&apos;s
+            standard line to its men&apos;s line.
+          </p>
+        )}
       </div>
 
       <div className="grid gap-6 sm:grid-cols-2">
         <ResultBox title="Your Product">
-          <ProductTile product={product} label={isWomens ? "For Her" : "For Him"} tone={isWomens ? "pink" : "blue"} />
+          <ProductTile product={product} label={isWomens ? herLabel : himLabel} tone={isWomens ? "pink" : "blue"} />
         </ResultBox>
         {counterpart && (
           <ResultBox title={isWomens ? "Men's Equivalent" : "Women's Equivalent"}>
-            <ProductTile product={counterpart} label={isWomens ? "For Him" : "For Her"} tone={isWomens ? "blue" : "pink"} />
+            <ProductTile product={counterpart} label={isWomens ? himLabel : herLabel} tone={isWomens ? "blue" : "pink"} />
           </ResultBox>
         )}
       </div>
@@ -155,6 +163,9 @@ function Results({ result }: { result: CheckResult }) {
 
       {alternatives.length > 0 && (
         <ResultBox title="Cheaper Alternatives">
+          <p className="-mt-1 mb-2 text-sm text-gray-500">
+            The same kind of product from other brands, for less per {product.size?.unit === "oz" ? "ounce" : "item"}.
+          </p>
           <ul className="divide-y divide-pink-100">
             {alternatives.map((a) => (
               <li key={a.asin}>

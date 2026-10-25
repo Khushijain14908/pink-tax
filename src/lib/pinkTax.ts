@@ -37,7 +37,7 @@ function jaccard(a: Set<string>, b: Set<string>): number {
 }
 
 // "Dove Men+Care" and "Dove", or "Gillette Venus" and "Gillette", are the same brand family.
-function brandFamily(brand: string): string {
+export function brandFamily(brand: string): string {
   return brand.toLowerCase().split(/[^a-z0-9]+/)[0] ?? "";
 }
 
@@ -123,4 +123,33 @@ export function counterpartKeyword(product: Product): string | null {
   const core = [...tokens(product.title, product.brand)].slice(0, 5).join(" ");
   const brand = product.brand.split(/[^A-Za-z0-9]+/)[0] ?? "";
   return `${target}'s ${brand} ${core}`.replace(/\s+/g, " ").trim();
+}
+
+/** Search keyword for the same kind of product from any brand, for the same audience. */
+export function alternativesKeyword(product: Product, unlabeled = false): string {
+  const core = [...tokens(product.title, product.brand)].slice(0, 5).join(" ");
+  const audience = unlabeled || product.gender === "neutral" ? "" : `${product.gender}'s `;
+  return `${audience}${core}`.trim();
+}
+
+/** Cheaper (per unit) versions of the same kind of product from other brands, for the same audience. */
+export function cheaperAlternatives(product: Product, pool: Product[], unlabeled = false, count = 3): Product[] {
+  const sameAudience = (p: Product) =>
+    unlabeled ? p.gender === "neutral" || p.gender === "women" : p.gender === product.gender;
+  const similar = (p: Product) =>
+    jaccard(tokens(product.title, product.brand), tokens(p.title, p.brand)) >= 0.2;
+
+  const brands = new Set([brandFamily(product.brand)]);
+  return pool
+    .filter((p) => p.asin !== product.asin && sameAudience(p) && similar(p))
+    .filter((p) => p.size?.unit === product.size?.unit && unitPrice(p) < unitPrice(product))
+    .sort((a, b) => unitPrice(a) - unitPrice(b))
+    .filter((p) => {
+      // One per brand, and never the product's own brand.
+      const family = brandFamily(p.brand);
+      if (!family || brands.has(family)) return false;
+      brands.add(family);
+      return true;
+    })
+    .slice(0, count);
 }
