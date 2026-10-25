@@ -1,7 +1,14 @@
 import { SITE_NAME } from "@/lib/site";
 
-const HEADLINE_STATS = [
-  { value: "$2,400", label: "more paid by women in a single year for the same products" },
+const HEADLINE_STATS: { value: string; label: string; source?: { label: string; url: string } }[] = [
+  {
+    value: "$2,400",
+    label: "more paid by women per year for the same goods and services",
+    source: {
+      label: "California Senate, 2020",
+      url: "https://sjud.senate.ca.gov/sites/sjud.senate.ca.gov/files/2.18.2020_sjud_gender_pricing_info_hearing_background_paper.pdf",
+    },
+  },
   { value: "7%", label: "more expensive, on average, for products targeted at women" },
   { value: "$188,000", label: "paid in pink tax over a lifetime" },
 ];
@@ -75,6 +82,16 @@ export default function AboutPage() {
           <div key={s.value} className="rounded-2xl bg-pink-600 p-6 text-center text-white">
             <p className="text-3xl font-extrabold">{s.value}</p>
             <p className="mt-2 text-sm text-pink-100">{s.label}</p>
+            {s.source && (
+              <a
+                href={s.source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-block text-xs text-pink-200 underline-offset-2 hover:text-white hover:underline"
+              >
+                Source: {s.source.label}
+              </a>
+            )}
           </div>
         ))}
       </div>

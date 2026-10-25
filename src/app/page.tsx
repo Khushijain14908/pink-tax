@@ -4,6 +4,9 @@ import EmptyCatalog from "@/components/EmptyCatalog";
 import { catalogStats, worstDeals } from "@/lib/catalog";
 import { CATEGORIES, TAGLINE } from "@/lib/site";
 
+const CA_SENATE_REPORT =
+  "https://sjud.senate.ca.gov/sites/sjud.senate.ca.gov/files/2.18.2020_sjud_gender_pricing_info_hearing_background_paper.pdf";
+
 export default function Home() {
   const featured = worstDeals(3);
   const stats = catalogStats();
@@ -41,7 +44,11 @@ export default function Home() {
             value={stats.avgMarkupPct === null ? "—" : `${stats.avgMarkupPct}%`}
             label={`average markup across ${stats.pairCount} product pairs we checked`}
           />
-          <Stat value="$2,400" label="extra women pay per year for the same products" />
+          <Stat
+            value="$2,400"
+            label="extra women pay per year for the same goods and services"
+            source={{ label: "California Senate, 2020", url: CA_SENATE_REPORT }}
+          />
           <Stat value="0" label="reasons razors need to be pink" />
         </div>
       </section>
@@ -90,11 +97,29 @@ export default function Home() {
   );
 }
 
-function Stat({ value, label }: { value: string; label: string }) {
+function Stat({
+  value,
+  label,
+  source,
+}: {
+  value: string;
+  label: string;
+  source?: { label: string; url: string };
+}) {
   return (
     <div>
       <p className="text-3xl font-extrabold text-pink-600">{value}</p>
       <p className="mt-1 text-sm text-gray-600">{label}</p>
+      {source && (
+        <a
+          href={source.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-1 inline-block text-xs text-gray-400 hover:text-pink-600 hover:underline"
+        >
+          Source: {source.label}
+        </a>
+      )}
     </div>
   );
 }
