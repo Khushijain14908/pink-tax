@@ -73,20 +73,15 @@ export default function CategoryBrowser({
         </Group>
 
         <Group title="Product">
-          {productTypes.map((t) => {
-            const count = countByType(t);
-            return (
-              <Option
-                key={t}
-                type="checkbox"
-                checked={types.has(t)}
-                disabled={count === 0}
-                onChange={() => setTypes(toggle(types, t))}
-              >
-                <span className="capitalize">{t}</span> <span className="text-gray-400">({count})</span>
+          {/* Only types that have comparisons; empty ones would filter to nothing. */}
+          {productTypes
+            .filter((t) => countByType(t) > 0)
+            .map((t) => (
+              <Option key={t} type="checkbox" checked={types.has(t)} onChange={() => setTypes(toggle(types, t))}>
+                <span className="capitalize">{t}</span>{" "}
+                <span className="text-gray-400">({countByType(t)})</span>
               </Option>
-            );
-          })}
+            ))}
         </Group>
 
         <Group title="Markup">
@@ -142,22 +137,19 @@ function Group({ title, children }: { title: string; children: React.ReactNode }
 function Option({
   type,
   checked,
-  disabled,
   onChange,
   children,
 }: {
   type: "radio" | "checkbox";
   checked: boolean;
-  disabled?: boolean;
   onChange: () => void;
   children: React.ReactNode;
 }) {
   return (
-    <label className={`flex items-center gap-2 ${disabled ? "opacity-40" : "cursor-pointer"}`}>
+    <label className="flex cursor-pointer items-center gap-2">
       <input
         type={type}
         checked={checked}
-        disabled={disabled}
         onChange={onChange}
         className="accent-pink-600"
       />
