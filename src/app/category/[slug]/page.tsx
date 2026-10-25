@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import ComparisonCard from "@/components/ComparisonCard";
-import { CATEGORIES, placeholderPairs } from "@/lib/site";
+import EmptyCatalog from "@/components/EmptyCatalog";
+import { visiblePairs } from "@/lib/catalog";
+import { CATEGORIES } from "@/lib/site";
 
 export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ slug: c.slug }));
@@ -11,7 +13,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const category = CATEGORIES.find((c) => c.slug === slug);
   if (!category) notFound();
 
-  const pairs = placeholderPairs(slug);
+  const pairs = visiblePairs(slug).sort((a, b) => b.markupPct - a.markupPct);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12">
@@ -26,15 +28,21 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <aside className="w-full shrink-0 rounded-2xl border border-pink-100 bg-pink-50 p-5 lg:w-60">
           <h2 className="font-semibold text-gray-900">Filters</h2>
           <FilterGroup title="Sort by" options={["Biggest markup", "Price: low to high", "Brand"]} />
-          <FilterGroup title="Brand" options={["Brand X", "Brand Y", "Brand Z"]} />
+          <FilterGroup title="Product" options={category.productTypes} />
           <FilterGroup title="Markup" options={["0–10%", "10–25%", "25%+ (yikes)"]} />
         </aside>
 
-        <div className="grid flex-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
-          {pairs.map((p) => (
-            <ComparisonCard key={p.id} pair={p} />
-          ))}
-        </div>
+        {pairs.length ? (
+          <div className="grid flex-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
+            {pairs.map((p) => (
+              <ComparisonCard key={p.id} pair={p} />
+            ))}
+          </div>
+        ) : (
+          <div className="flex-1">
+            <EmptyCatalog />
+          </div>
+        )}
       </div>
     </div>
   );

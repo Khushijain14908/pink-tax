@@ -1,9 +1,12 @@
 import Link from "next/link";
 import ComparisonCard from "@/components/ComparisonCard";
-import { CATEGORIES, TAGLINE, placeholderPairs } from "@/lib/site";
+import EmptyCatalog from "@/components/EmptyCatalog";
+import { catalogStats, worstDeals } from "@/lib/catalog";
+import { CATEGORIES, TAGLINE } from "@/lib/site";
 
 export default function Home() {
-  const featured = placeholderPairs("featured", 3);
+  const featured = worstDeals(3);
+  const stats = catalogStats();
 
   return (
     <>
@@ -34,8 +37,11 @@ export default function Home() {
       {/* Stats strip */}
       <section className="border-y border-pink-200 bg-white">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 py-8 text-center sm:grid-cols-3">
-          <Stat value="X%" label="average markup on women's products" />
-          <Stat value="$X,XXX" label="extra paid per year (placeholder)" />
+          <Stat
+            value={stats.avgMarkupPct === null ? "—" : `${stats.avgMarkupPct}%`}
+            label={`average markup across ${stats.pairCount} product pairs we checked`}
+          />
+          <Stat value="$2,400" label="extra women pay per year for the same products" />
           <Stat value="0" label="reasons razors need to be pink" />
         </div>
       </section>
@@ -68,11 +74,17 @@ export default function Home() {
             View all →
           </Link>
         </div>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featured.map((p) => (
-            <ComparisonCard key={p.id} pair={p} />
-          ))}
-        </div>
+        {featured.length ? (
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {featured.map((p) => (
+              <ComparisonCard key={p.id} pair={p} />
+            ))}
+          </div>
+        ) : (
+          <div className="mt-6">
+            <EmptyCatalog />
+          </div>
+        )}
       </section>
     </>
   );

@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-10-25T03:31:44.396Z",
+  "pairs": [
+    {
+      "id": "B0039LMTBU-B0BHL7D2WT",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0039LMTBU",
+        "title": "Gillette Venus Sensitive Disposable Razors for Women with Sensitive Skin, 6 Count, Delivers Close Shave with Comfort",
+        "brand": "Gillette Venus",
+        "price": 13.47,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0039LMTBU",
+        "image": "https://m.media-amazon.com/images/I/81TVQm2geqL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 18319,
+        "gender": "women",
+        "size": {
+          "value": 6,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0BHL7D2WT",
+        "title": "Gillette Sensor3 Sensitive Men's Disposable Shaving Razors, 12 Count",
+        "brand": "Gillette",
+        "price": 14.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0BHL7D2WT",
+        "image": "https://m.media-amazon.com/images/I/81xRrRTE8iL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 22677,
+        "gender": "men",
+        "size": {
+          "value": 12,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.69,
+      "markupPct": 80,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B003EMNITQ-B004B8F8MM",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B003EMNITQ",
+        "title": "Gillette Venus ComfortGlide White Tea Women's Razor Blades, 3-Blade Razor Refills, 6 Count",
+        "brand": "Gillette Venus",
+        "price": 21.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B003EMNITQ",
+        "image": "https://m.media-amazon.com/images/I/716z2eE1R6L._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 18848,
+        "gender": "women",
+        "size": {
+          "value": 6,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B004B8F8MM",
+        "title": "Gillette Fusion5 Power Razor Blade Refills for Men, 8 Count, with Precision Trimmer",
+        "brand": "Gillette",
+        "price": 29.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B004B8F8MM",
+        "image": "https://m.media-amazon.com/images/I/81pYoxy8AYL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 60929,
+        "gender": "men",
+        "size": {
+          "value": 8,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.67,
+      "markupPct": -2.3,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B07CYN88NJ-B07CZCQ481",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B07CYN88NJ",
+        "title": "Amazon Basics 5-Blade Razor Handle for Women, Includes 12 Cartridges and Shower Hanger, 14 Piece Set, Blue",
+        "brand": "Amazon Basics",
+        "price": 16.39,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07CYN88NJ",
+        "image": "https://m.media-amazon.com/images/I/717Xbx6csNL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 37343,
+        "gender": "women",
+        "size": {
+          "value": 12,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B07CZCQ481",
+        "title": "Amazon Basics 5-Blade MotionSphere Men's Razor with Dual Lubrication, Vitamin E, Precision Trimmer, 1 Handle & 16 Cartridges, Black",
+        "brand": "Amazon Basics",
+        "price": 20.06,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07CZCQ481",
+        "image": "https://m.media-amazon.com/images/I/81rdiBTmW1L._SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 61912,
+        "gender": "men",
+        "size": {
+          "value": 16,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.66,
+      "markupPct": 8.9,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B09M2QHV2C-B072M5FFZ5",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B09M2QHV2C",
+        "title": "Gillette Venus ComfortGlide White Tea 4 count, with Gillette Venus ComfortGlide plus MoistureGlide 2 count, Women's Razor Blade Refills",
+        "brand": "Gillette Venus",
+        "price": 17.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09M2QHV2C",
+        "image": "https://m.media-amazon.com/images/I/810FNmwY2cL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 5367,
+        "gender": "women",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B072M5FFZ5",
+        "title": "Gillette ProGlide Shield Men's Razor, 5-Blade Razor with Precision Trimmer, 1 Handle and 4 Refills",
+        "brand": "Gillette",
+        "price": 25,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B072M5FFZ5",
+        "image": "https://m.media-amazon.com/images/I/81DvACboI5L._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 14129,
+        "gender": "men",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.65,
+      "markupPct": -30,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    }
+  ]
+}
