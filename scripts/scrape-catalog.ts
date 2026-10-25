@@ -1,5 +1,6 @@
 // Step 1 of building the catalog: search Amazon for "women's X" and "men's X" for every
-// product type and save the raw results to scripts/raw/. Uses Bright Data credits.
+// product type, plus each brand search in src/lib/site.ts, and save the raw results to
+// scripts/raw/. Uses Bright Data credits.
 //
 //   npm run scrape                 # skips searches already saved in scripts/raw/
 //   npm run scrape -- --force      # re-scrape everything
@@ -10,7 +11,7 @@
 import { existsSync, writeFileSync } from "node:fs";
 import { CATEGORIES } from "../src/lib/site";
 import { searchProducts } from "../src/lib/brightdata";
-import { rawFile } from "./raw-files";
+import { brandRawFile, rawFile } from "./raw-files";
 
 const CONCURRENCY = 4;
 
@@ -20,15 +21,27 @@ const limitArg = args.find((a) => a.startsWith("--limit="));
 const RESULTS_PER_SEARCH = limitArg ? Number(limitArg.split("=")[1]) : 20;
 const filters = args.filter((a) => !a.startsWith("--"));
 
-const jobs = CATEGORIES.flatMap((c) => c.productTypes)
-  .filter((t) => !filters.length || filters.some((f) => t.includes(f)))
+const genericJobs = CATEGORIES.flatMap((c) => c.productTypes)
   .flatMap((type) => (["women", "men"] as const).map((gender) => ({ type, gender })))
   .map((j) => ({
-    ...j,
+    label: `${j.gender}'s ${j.type}`,
+    match: j.type,
     // Bright Data sometimes returns nothing for one phrasing, so fall back to others.
     keywords: [`${j.gender}'s ${j.type}`, `${j.type} for ${j.gender}`, `${j.gender}s ${j.type}`],
     file: rawFile(j.type, j.gender),
-  }))
+  }));
+
+const brandJobs = CATEGORIES.flatMap((c) => c.brandSearches).flatMap((b) =>
+  (["women", "men"] as const).map((gender) => ({
+    label: b[gender].keyword,
+    match: `${b.id} ${b.productType}`,
+    keywords: [b[gender].keyword, b[gender].keyword], // retry once on an empty result
+    file: brandRawFile(b.id, gender),
+  })),
+);
+
+const jobs = [...genericJobs, ...brandJobs]
+  .filter((j) => !filters.length || filters.some((f) => j.match.includes(f)))
   .filter((j) => force || !existsSync(j.file));
 
 async function run() {
@@ -53,7 +66,7 @@ async function run() {
           console.log(`✓ ${keyword}: ${records.length} results`);
         } catch (err) {
           failed++;
-          console.error(`✗ ${job.gender}'s ${job.type}: ${(err as Error).message}`);
+          console.error(`✗ ${job.label}: ${(err as Error).message}`);
         }
       }
     }),

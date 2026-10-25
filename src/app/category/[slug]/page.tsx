@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import CategoryBrowser from "@/components/CategoryBrowser";
 import EmptyCatalog from "@/components/EmptyCatalog";
 import { visiblePairs } from "@/lib/catalog";
-import { CATEGORIES } from "@/lib/site";
+import { CATEGORIES, categoryProductTypes } from "@/lib/site";
 
 export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ slug: c.slug }));
@@ -24,7 +24,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       </header>
 
       {pairs.length ? (
-        <CategoryBrowser pairs={pairs} productTypes={category.productTypes} />
+        <CategoryBrowser pairs={pairs} productTypes={categoryProductTypes(category)} />
       ) : (
         <EmptyCatalog />
       )}

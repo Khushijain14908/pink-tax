@@ -42,13 +42,15 @@ function brandFamily(brand: string): string {
 }
 
 /** 0–1 score for how likely two products are the same thing for different genders. */
-export function matchScore(a: Product, b: Product): number {
-  const sameBrand = !!brandFamily(a.brand) && brandFamily(a.brand) === brandFamily(b.brand);
+// `knownSameBrand` is set for brand searches, where we already know the two lines belong together.
+export function matchScore(a: Product, b: Product, knownSameBrand = false): number {
+  const sameBrand =
+    knownSameBrand || (!!brandFamily(a.brand) && brandFamily(a.brand) === brandFamily(b.brand));
   const similarity = jaccard(tokens(a.title, a.brand), tokens(b.title, b.brand));
   const sameUnit = !!a.size && a.size.unit === b.size?.unit;
   // A 5-pack vs. a listing with no size, or oz vs. count, can't be compared fairly.
   const comparableSizes = a.size?.unit === b.size?.unit;
-  if (similarity < 0.1 || !comparableSizes || conflictingSpecs(a.title, b.title)) return 0;
+  if (similarity < 0.25 || !comparableSizes || conflictingSpecs(a.title, b.title)) return 0;
   return (sameBrand ? 0.4 : 0) + 0.45 * similarity + (sameUnit ? 0.15 : 0);
 }
 
@@ -97,9 +99,9 @@ export function findBestMatch(product: Product, candidates: Product[]) {
 }
 
 /** Greedily pairs women's and men's products, each product used at most once. */
-export function pairProducts(womens: Product[], mens: Product[], maxPairs: number) {
+export function pairProducts(womens: Product[], mens: Product[], maxPairs: number, knownSameBrand = false) {
   const scored = womens
-    .flatMap((w) => mens.map((m) => ({ w, m, score: matchScore(w, m) })))
+    .flatMap((w) => mens.map((m) => ({ w, m, score: matchScore(w, m, knownSameBrand) })))
     .filter((s) => s.score >= MATCH_THRESHOLD)
     .sort((a, b) => b.score - a.score);
 

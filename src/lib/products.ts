@@ -61,7 +61,7 @@ const SIZE_PATTERNS: [RegExp, UnitSize["unit"], number][] = [
   [/(\d+(?:\.\d+)?)\s*(?:ml|milliliters?)\b/i, "oz", 1 / 29.5735],
   [/(\d+(?:\.\d+)?)\s*(?:oz|ounces?)\b/i, "oz", 1],
   [/(\d+(?:\.\d+)?)\s*(?:g|grams?)\b/i, "oz", 1 / 28.3495],
-  [/(\d+)\s*(?:count|ct|cartridges?|refills?)\b/i, "count", 1],
+  [/(\d+)\s*(?:razor\s+)?(?:blade\s+)?(?:count|ct|cartridges?|refills?)\b/i, "count", 1],
 ];
 
 export function parseSize(title: string): UnitSize | null {

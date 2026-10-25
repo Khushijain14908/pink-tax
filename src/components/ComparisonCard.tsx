@@ -6,9 +6,17 @@ export default function ComparisonCard({ pair }: { pair: CatalogPair }) {
   const taxed = pair.markupPct >= 5;
   return (
     <div className="flex flex-col overflow-hidden rounded-2xl border border-pink-100 bg-white shadow-sm">
+      {pair.womensUnlabeled && (
+        <p
+          className="bg-pink-50 px-4 py-1.5 text-center text-xs font-medium text-pink-700"
+          title="The brand's regular line isn't labeled “women's”, but it's the version sold alongside a separate men's line."
+        >
+          Standard vs. Men&apos;s line
+        </p>
+      )}
       <div className="grid flex-1 grid-cols-2 divide-x divide-pink-100">
-        <ProductTile product={pair.womens} label="For Her" tone="pink" />
-        <ProductTile product={pair.mens} label="For Him" tone="blue" />
+        <ProductTile product={pair.womens} label={pair.womensUnlabeled ? "Standard" : "For Her"} tone="pink" />
+        <ProductTile product={pair.mens} label={pair.womensUnlabeled ? "Men's Line" : "For Him"} tone="blue" />
       </div>
       <div
         className={`flex items-center justify-between px-4 py-2 text-sm text-white ${taxed ? "bg-pink-600" : "bg-gray-500"}`}

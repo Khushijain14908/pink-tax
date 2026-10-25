@@ -10,6 +10,8 @@ export type CatalogPair = Comparison & {
   womens: Product;
   mens: Product;
   matchScore: number;
+  // The women's product is a brand's regular line (e.g. "Dove"), not labeled "women's".
+  womensUnlabeled?: boolean;
   // Set to true by hand to hide a bad match from the site.
   hidden: boolean;
 };

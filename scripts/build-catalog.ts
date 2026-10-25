@@ -3,22 +3,20 @@
 // "hidden": true stay hidden.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { CATEGORIES } from "../src/lib/site";
-import { normalizeProduct, type Product } from "../src/lib/products";
+import { detectGender, normalizeProduct, type Product } from "../src/lib/products";
 import { compare, pairProducts } from "../src/lib/pinkTax";
 import type { Catalog, CatalogPair } from "../src/lib/catalog";
-import { rawFile } from "./raw-files";
+import { brandRawFile, rawFile } from "./raw-files";
 
 const CATALOG = "src/data/catalog.json";
-const PAIRS_PER_TYPE = 4;
 
-function load(type: string, gender: "women" | "men"): Product[] {
-  const file = rawFile(type, gender);
+function load(file: string, keep: (p: Product) => boolean): Product[] {
   if (!existsSync(file)) return [];
   const records = JSON.parse(readFileSync(file, "utf8")) as Record<string, unknown>[];
   const seenTitles = new Set<string>();
   return records
     .map(normalizeProduct)
-    .filter((p): p is Product => p !== null && p.gender === gender)
+    .filter((p): p is Product => p !== null && keep(p))
     .filter((p) => {
       // The same product often appears twice (different colors/sellers); keep one.
       const key = p.title.toLowerCase();
@@ -32,26 +30,59 @@ const previous = JSON.parse(readFileSync(CATALOG, "utf8")) as Catalog;
 const hiddenIds = new Set(previous.pairs.filter((p) => p.hidden).map((p) => p.id));
 
 const pairs: CatalogPair[] = [];
-for (const category of CATEGORIES) {
-  for (const type of category.productTypes) {
-    const womens = load(type, "women");
-    const mens = load(type, "men");
-    const matched = pairProducts(womens, mens, PAIRS_PER_TYPE);
-    console.log(`${type}: ${womens.length} women's, ${mens.length} men's → ${matched.length} pairs`);
+const usedAsins = new Set<string>();
+const unused = (p: Product) => !usedAsins.has(p.asin);
 
-    for (const m of matched) {
-      const id = `${m.womens.asin}-${m.mens.asin}`;
-      pairs.push({
-        id,
-        category: category.slug,
-        productType: type,
-        womens: m.womens,
-        mens: m.mens,
-        matchScore: Math.round(m.score * 100) / 100,
-        ...compare(m.womens, m.mens),
-        hidden: hiddenIds.has(id),
-      });
-    }
+function addPairs(
+  label: string,
+  category: string,
+  productType: string,
+  womens: Product[],
+  mens: Product[],
+  knownSameBrand = false,
+) {
+  const matched = pairProducts(womens.filter(unused), mens.filter(unused), Infinity, knownSameBrand);
+  console.log(`${label}: ${womens.length} women's, ${mens.length} men's → ${matched.length} pairs`);
+
+  for (const m of matched) {
+    const id = `${m.womens.asin}-${m.mens.asin}`;
+    usedAsins.add(m.womens.asin).add(m.mens.asin);
+    pairs.push({
+      id,
+      category,
+      productType,
+      womens: m.womens,
+      mens: m.mens,
+      matchScore: Math.round(m.score * 100) / 100,
+      ...compare(m.womens, m.mens),
+      womensUnlabeled: detectGender(m.womens.title) !== "women" || undefined,
+      hidden: hiddenIds.has(id),
+    });
+  }
+}
+
+// The brand must be the product's brand (or lead its title), not just mentioned —
+// e.g. "Feather Flamingo Facial Razor" isn't a Flamingo product.
+const hasBrand = (p: Product, brand: string) =>
+  p.brand.toLowerCase().includes(brand) ||
+  p.title.toLowerCase().split(/\s+/).slice(0, 3).join(" ").includes(brand);
+
+for (const category of CATEGORIES) {
+  // Brand searches first: they give the most reliable matches.
+  for (const b of category.brandSearches) {
+    // A brand's regular line (e.g. "Dove shampoo") counts as the women's version when the
+    // men's line is separate; those pairs are marked womensUnlabeled.
+    const womens = load(brandRawFile(b.id, "women"), (p) =>
+      hasBrand(p, b.women.brand) && (p.gender === "women" || p.gender === "neutral"),
+    ).map((p) => ({ ...p, gender: "women" as const }));
+    const mens = load(brandRawFile(b.id, "men"), (p) => hasBrand(p, b.men.brand) && p.gender === "men");
+    addPairs(`[brand] ${b.id}`, category.slug, b.productType, womens, mens, true);
+  }
+
+  for (const type of category.productTypes) {
+    const womens = load(rawFile(type, "women"), (p) => p.gender === "women");
+    const mens = load(rawFile(type, "men"), (p) => p.gender === "men");
+    addPairs(type, category.slug, type, womens, mens);
   }
 }
 

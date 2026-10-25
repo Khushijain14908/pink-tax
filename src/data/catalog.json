@@ -1,6 +1,732 @@
 {
-  "generatedAt": "2026-10-25T04:30:34.453Z",
+  "generatedAt": "2026-10-25T04:46:57.166Z",
   "pairs": [
+    {
+      "id": "B0C5YGZK4D-B00UV3TGUG",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B0C5YGZK4D",
+        "title": "Levi's Women's Wedgie Straight Jeans",
+        "brand": "Levi's",
+        "price": 44.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0C5YGZK4D",
+        "image": "https://m.media-amazon.com/images/I/51oDaHx95uL._AC_SL1000_.jpg",
+        "rating": 4.1,
+        "reviewsCount": 6507,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B00UV3TGUG",
+        "title": "Levi's Men's 559 Relaxed Straight Jeans",
+        "brand": "Levi's",
+        "price": 64.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00UV3TGUG",
+        "image": "https://m.media-amazon.com/images/I/51Un6q2oiQL._AC_SL1000_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 6428,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.63,
+      "markupPct": -30.8,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0D3SZL59Z-B07337CSK2",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B0D3SZL59Z",
+        "title": "Levi's Women's 724 High Rise Straight Jeans",
+        "brand": "Levi's",
+        "price": 39.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0D3SZL59Z",
+        "image": "https://m.media-amazon.com/images/I/51jGO7V4jyL._AC_SL1000_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 190,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B07337CSK2",
+        "title": "Levi Strauss Signature Gold Men's Straight Fit Jeans",
+        "brand": "Levi Strauss Signature Gold",
+        "price": 25.83,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07337CSK2",
+        "image": "https://m.media-amazon.com/images/I/51EZ2m+BWGL._AC_SL1000_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 10645,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.58,
+      "markupPct": 54.8,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0GVVVRP4W-B08P555BY5",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B0GVVVRP4W",
+        "title": "Levi's Women's Ribcage Straight Full Length Jeans",
+        "brand": "Levi's",
+        "price": 52.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GVVVRP4W",
+        "image": "https://m.media-amazon.com/images/I/51nGAX8TkSL._AC_SL1000_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 1693,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B08P555BY5",
+        "title": "Levi's Men's 514 Straight Fit Jeans",
+        "brand": "Levi's",
+        "price": 64.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B08P555BY5",
+        "image": "https://m.media-amazon.com/images/I/81Q0QHaMvYL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 1369,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": -19.2,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0FBKLWGBY-B003YUY74S",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B0FBKLWGBY",
+        "title": "Levi's Women's 501 90s Jeans",
+        "brand": "Levi's",
+        "price": 110,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FBKLWGBY",
+        "image": "https://m.media-amazon.com/images/I/71BqsQ0UEUL._AC_SL1500_.jpg",
+        "rating": 4,
+        "reviewsCount": 455,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B003YUY74S",
+        "title": "Levi's Men's 505 Regular Fit Jeans",
+        "brand": "Levi's",
+        "price": 54.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B003YUY74S",
+        "image": "https://m.media-amazon.com/images/I/51vL9b0iG5L._AC_SL1000_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 29877,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": 100,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DJWQ83LJ-B0DJV3YJC9",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B0DJWQ83LJ",
+        "title": "Levi's Women's Cinch Baggy",
+        "brand": "Levi's",
+        "price": 50.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DJWQ83LJ",
+        "image": "https://m.media-amazon.com/images/I/61il-YqaUxL._AC_SL1000_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 1605,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0DJV3YJC9",
+        "title": "Levi's Men's 578® Baggy Fit Jean",
+        "brand": "Levi's",
+        "price": 52.46,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DJV3YJC9",
+        "image": "https://m.media-amazon.com/images/I/610zZmPILZL._AC_SL1000_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 861,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.51,
+      "markupPct": -2.8,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0F9ZVKSQR-B0018OQLXM",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B0F9ZVKSQR",
+        "title": "Levi's Women's 501 Curve Jeans",
+        "brand": "Levi's",
+        "price": 52.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0F9ZVKSQR",
+        "image": "https://m.media-amazon.com/images/I/51MyXXDnqyL._AC_SL1000_.jpg",
+        "rating": 3.7,
+        "reviewsCount": 767,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0018OQLXM",
+        "title": "Levi's Men's 501 Original Fit Jeans",
+        "brand": "Levi's",
+        "price": 74.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0018OQLXM",
+        "image": "https://m.media-amazon.com/images/I/81K05CzSPML._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 1791,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.51,
+      "markupPct": -30,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0C6Y8MMSL-B0DWFTXPMY",
+      "category": "clothing",
+      "productType": "t-shirt",
+      "womens": {
+        "asin": "B0C6Y8MMSL",
+        "title": "Hanes Women's Perfect-T V-neck T-shirt, Cotton Short Sleeve Tee for Women, 1 or 2-Pack",
+        "brand": "Hanes",
+        "price": 10,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0C6Y8MMSL",
+        "image": "https://m.media-amazon.com/images/I/71KiiAPjIBL._AC_SL1500_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 20858,
+        "gender": "women",
+        "size": {
+          "value": 2,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0DWFTXPMY",
+        "title": "Hanes Men's Cool Dri Performance T-Shirt, Moisture-Wicking Short Sleeve Tee, 40+ UPF Protection, 2 Or 5 Pack",
+        "brand": "Hanes",
+        "price": 28.79,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DWFTXPMY",
+        "image": "https://m.media-amazon.com/images/I/61FpbeEPEoL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 15960,
+        "gender": "men",
+        "size": {
+          "value": 5,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": -13.2,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0FZNXRDM1-B0FZP1RLF8",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0FZNXRDM1",
+        "title": "Champion Women's Powerblend Fleece Hoodie, Tonal Script Logo",
+        "brand": "Champion",
+        "price": 41.25,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FZNXRDM1",
+        "image": "https://m.media-amazon.com/images/I/81bUZ+SK+mL._AC_SL1500_.jpg",
+        "rating": 5,
+        "reviewsCount": 7,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0FZP1RLF8",
+        "title": "Champion Men's Powerblend Hoodie, Midweight Fleece, Tonal Script Logo",
+        "brand": "Champion",
+        "price": 41.25,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FZP1RLF8",
+        "image": "https://m.media-amazon.com/images/I/718CtGOkC2L._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 83,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.79,
+      "markupPct": 0,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0FZNT4HM1-B01HIUTJG0",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0FZNT4HM1",
+        "title": "Champion Women's Powerblend Fleece Zip-up Hoodie,standard Fit,\"c\" Logo",
+        "brand": "Champion",
+        "price": 39.9,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FZNT4HM1",
+        "image": "https://m.media-amazon.com/images/I/81cMiH5AsJL._AC_SL1500_.jpg",
+        "rating": 4.1,
+        "reviewsCount": 68,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B01HIUTJG0",
+        "title": "Champion Men's Powerblend Full-zip Hoodie, Standard Fit, Midweight Fleece",
+        "brand": "Champion",
+        "price": 38.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01HIUTJG0",
+        "image": "https://m.media-amazon.com/images/I/71nlvDsMIVL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 10950,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.67,
+      "markupPct": 3.6,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B095GLFFSQ-B081KN1DKX",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B095GLFFSQ",
+        "title": "Champion Women's Pullover Fleece Hoodie, Loose Fit, Midweight, Script Logo, Available in Regular and Plus",
+        "brand": "Champion",
+        "price": 41.25,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B095GLFFSQ",
+        "image": "https://m.media-amazon.com/images/I/71Er6dydq1L._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 3690,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B081KN1DKX",
+        "title": "Champion mens Pullover Fleece Hoodie, Standard Fit, Midweight, C Logo, Available in Regular and Big & Tall",
+        "brand": "Champion",
+        "price": 17.65,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B081KN1DKX",
+        "image": "https://m.media-amazon.com/images/I/71Rif5+I+QL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 2459,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.66,
+      "markupPct": 133.7,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0H6CK52DX-B01HIUTGTU",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0H6CK52DX",
+        "title": "Champion Women's Powerblend Fleece Pullover Hoodie, C Logo",
+        "brand": "Champion",
+        "price": 30,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H6CK52DX",
+        "image": "https://m.media-amazon.com/images/I/71i0qCq9c6L._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 36,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B01HIUTGTU",
+        "title": "Champion Men's Pullover Fleece Hoodie, Midweight, C Logo (Reg. Or Big & Tall)",
+        "brand": "Champion",
+        "price": 38,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01HIUTGTU",
+        "image": "https://m.media-amazon.com/images/I/71JWiLWeHHL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 30008,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.58,
+      "markupPct": -21.1,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0H6CQVGNQ-B0BNK3HPWL",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0H6CQVGNQ",
+        "title": "Champion Women's Fleece Hoodie With Satin Applique, Standard Fit, Midweight Fleece Fabric",
+        "brand": "Champion",
+        "price": 33,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H6CQVGNQ",
+        "image": "https://m.media-amazon.com/images/I/71rKRQ6zK8L._AC_SL1500_.jpg",
+        "rating": 4.9,
+        "reviewsCount": 17,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0BNK3HPWL",
+        "title": "Champion Men's Pullover Graphic Fleece Hoodie, Standard Fit, Midweight Fleece, Classic Script Logo",
+        "brand": "Champion",
+        "price": 31.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0BNK3HPWL",
+        "image": "https://m.media-amazon.com/images/I/710ESSRnk8L._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 50290,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.57,
+      "markupPct": 3.2,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0GL9MQJPZ-B07JDMBT8M",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0GL9MQJPZ",
+        "title": "Champion Women's Sun Hoodie, Long Sleeve SPF 50+ UV Rash Guard Sun Shirt",
+        "brand": "Champion",
+        "price": 14.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GL9MQJPZ",
+        "image": "https://m.media-amazon.com/images/I/5120HBhG-6L._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 148,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B07JDMBT8M",
+        "title": "Champion Men's Long Sleeve T-shirt Hoodie (Retired Colors)",
+        "brand": "Champion",
+        "price": 22.77,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07JDMBT8M",
+        "image": "https://m.media-amazon.com/images/I/71o8-QU3bJL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 25133,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.56,
+      "markupPct": -34.2,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B095H6X32H-B01HIUT1JA",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B095H6X32H",
+        "title": "Champion Women's Powerblend Crewneck,loose Fit,midweight Fleece,script Logo",
+        "brand": "Champion",
+        "price": 37.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B095H6X32H",
+        "image": "https://m.media-amazon.com/images/I/71Rm8wlJBFL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 487,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B01HIUT1JA",
+        "title": "Champion Men's Men's Crewneck Fleece Sweatshirt, Standard Fit, Midweight, C Logo, Available in Regular and Big & Tall",
+        "brand": "Champion",
+        "price": 33.75,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01HIUT1JA",
+        "image": "https://m.media-amazon.com/images/I/615LsBNSbjL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 21781,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.56,
+      "markupPct": 11.1,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0H6CK143X-B01HIUTCY4",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0H6CK143X",
+        "title": "Champion Women's Pullover Hoodie With Bungee Cord, Standard Fit, Midweight Stretch Fabric",
+        "brand": "Champion",
+        "price": 21.7,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H6CK143X",
+        "image": "https://m.media-amazon.com/images/I/71tJXE7k31L._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 25,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B01HIUTCY4",
+        "title": "Champion Men's Pullover Fleece Hoodie, Standard Fit, Midweight, C Logo, Available in Regular and Big & Tall",
+        "brand": "Champion",
+        "price": 37.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01HIUTCY4",
+        "image": "https://m.media-amazon.com/images/I/71sFO3FqXBL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 36084,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": -42.1,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0H6CL27JT-B01JSQT33Q",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0H6CL27JT",
+        "title": "Champion Women's Powerblend Fleece Cropped Full-Zip Hoodie",
+        "brand": "Champion",
+        "price": 33,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H6CL27JT",
+        "image": "https://m.media-amazon.com/images/I/81ZxbfYp9aL._AC_SL1500_.jpg",
+        "rating": 4.9,
+        "reviewsCount": 23,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B01JSQT33Q",
+        "title": "Champion mens Powerblend Fleece Crew",
+        "brand": "Champion",
+        "price": 40.44,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01JSQT33Q",
+        "image": "https://m.media-amazon.com/images/I/91L0W5nSGtL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 2065,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.53,
+      "markupPct": -18.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DJYW6SGM-B0DJYSSXJB",
+      "category": "clothing",
+      "productType": "fleece jacket",
+      "womens": {
+        "asin": "B0DJYW6SGM",
+        "title": "Columbia Women's Sequoia Grove Full Zip Fleece",
+        "brand": "Columbia",
+        "price": 39.39,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DJYW6SGM",
+        "image": "https://m.media-amazon.com/images/I/71nSg-B2jeL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 317,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0DJYSSXJB",
+        "title": "Columbia mens Sequoia Grove Full Zip Fleece",
+        "brand": "Columbia",
+        "price": 44.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DJYSSXJB",
+        "image": "https://m.media-amazon.com/images/I/71YaV83jaML._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 264,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.85,
+      "markupPct": -12.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B003NX8CXS-B0076R6LNA",
+      "category": "clothing",
+      "productType": "fleece jacket",
+      "womens": {
+        "asin": "B003NX8CXS",
+        "title": "Columbia Women's Benton Springs Full Zip",
+        "brand": "Columbia",
+        "price": 45.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B003NX8CXS",
+        "image": "https://m.media-amazon.com/images/I/81rpxp6WFVL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53397,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0076R6LNA",
+        "title": "Columbia Men's Steens Mountain Full Zip 2.0",
+        "brand": "Columbia",
+        "price": 45.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0076R6LNA",
+        "image": "https://m.media-amazon.com/images/I/71JVTqz-4OL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 53941,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": 0,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0FYHX534F-B0FYHSF15F",
+      "category": "clothing",
+      "productType": "fleece jacket",
+      "womens": {
+        "asin": "B0FYHX534F",
+        "title": "Columbia Women's Timber Meadow Mtr Fleece Full Zip",
+        "brand": "Columbia",
+        "price": 44.09,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FYHX534F",
+        "image": "https://m.media-amazon.com/images/I/619cECFoQfL._AC_SL1500_.jpg",
+        "rating": 5,
+        "reviewsCount": 1,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0FYHSF15F",
+        "title": "Columbia Men's Pacific Arch 200 Hooded Full Zip Fleece",
+        "brand": "Columbia",
+        "price": 110,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FYHSF15F",
+        "image": "https://m.media-amazon.com/images/I/613gIyzA9uL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 8,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": -59.9,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B076TM27CB-B0FYHSWBJ6",
+      "category": "clothing",
+      "productType": "fleece jacket",
+      "womens": {
+        "asin": "B076TM27CB",
+        "title": "Columbia womens Fire Side II Sherpa Full Zip",
+        "brand": "Columbia",
+        "price": 62.09,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B076TM27CB",
+        "image": "https://m.media-amazon.com/images/I/71wvxaV6V4L._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 4693,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0FYHSWBJ6",
+        "title": "Columbia Men's Sequoia Grove II Full Zip Fleece",
+        "brand": "Columbia",
+        "price": 52.35,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FYHSWBJ6",
+        "image": "https://m.media-amazon.com/images/I/61ajQnF0wRL._AC_SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 9,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": 18.6,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
     {
       "id": "B09SBQYX91-B075ZG29D6",
       "category": "clothing",
@@ -74,42 +800,6 @@
       "hidden": false
     },
     {
-      "id": "B08P1PK2QB-B01JQTPG3G",
-      "category": "clothing",
-      "productType": "shorts",
-      "womens": {
-        "asin": "B08P1PK2QB",
-        "title": "Amazon Essentials Women's Mid-Rise Slim-Fit 5 Inch Inseam Khaki Shorts (Available in Straight and Curvy Fits)",
-        "brand": "Amazon Essentials",
-        "price": 15.9,
-        "currency": "USD",
-        "url": "https://www.amazon.com/dp/B08P1PK2QB",
-        "image": "https://m.media-amazon.com/images/I/71IEDAVZtDS._AC_SL1500_.jpg",
-        "rating": 4.1,
-        "reviewsCount": 6989,
-        "gender": "women",
-        "size": null
-      },
-      "mens": {
-        "asin": "B01JQTPG3G",
-        "title": "Amazon Essentials Men's 10\" Classic-Fit Cotton Twill Cargo Shorts, Multiple Pockets (Available in Big & Tall)",
-        "brand": "Amazon Essentials",
-        "price": 19.5,
-        "currency": "USD",
-        "url": "https://www.amazon.com/dp/B01JQTPG3G",
-        "image": "https://m.media-amazon.com/images/I/71cRSVZXLVL._AC_SL1500_.jpg",
-        "rating": 4.4,
-        "reviewsCount": 52119,
-        "gender": "men",
-        "size": null
-      },
-      "matchScore": 0.47,
-      "markupPct": -18.5,
-      "basis": "sticker",
-      "unitLabel": null,
-      "hidden": false
-    },
-    {
       "id": "B073V11Q27-B073V3VKCK",
       "category": "clothing",
       "productType": "jeans",
@@ -141,42 +831,6 @@
       },
       "matchScore": 0.55,
       "markupPct": 2.7,
-      "basis": "sticker",
-      "unitLabel": null,
-      "hidden": false
-    },
-    {
-      "id": "B0DJWPJ3DB-B073351YJP",
-      "category": "clothing",
-      "productType": "jeans",
-      "womens": {
-        "asin": "B0DJWPJ3DB",
-        "title": "Levi's Women's 318 Shaping Wide-Leg Jeans",
-        "brand": "Levi's",
-        "price": 44.97,
-        "currency": "USD",
-        "url": "https://www.amazon.com/dp/B0DJWPJ3DB",
-        "image": "https://m.media-amazon.com/images/I/51Z6cx9ZumL._AC_SL1000_.jpg",
-        "rating": 4.3,
-        "reviewsCount": 1159,
-        "gender": "women",
-        "size": null
-      },
-      "mens": {
-        "asin": "B073351YJP",
-        "title": "Levi Strauss Signature Gold Men's Straight Fit Jeans",
-        "brand": "Levi Strauss Signature Gold",
-        "price": 26.16,
-        "currency": "USD",
-        "url": "https://www.amazon.com/dp/B073351YJP",
-        "image": "https://m.media-amazon.com/images/I/51EZ2m+BWGL._AC_SL1000_.jpg",
-        "rating": 4.6,
-        "reviewsCount": 10645,
-        "gender": "men",
-        "size": null
-      },
-      "matchScore": 0.48,
-      "markupPct": 71.9,
       "basis": "sticker",
       "unitLabel": null,
       "hidden": false
@@ -374,6 +1028,1701 @@
       "hidden": false
     },
     {
+      "id": "B0HCF59BR8-B09ZCTGNYD",
+      "category": "clothing",
+      "productType": "sweatpants",
+      "womens": {
+        "asin": "B0HCF59BR8",
+        "title": "Womens Sweatpants 3 Pack High Waisted Fleece Baggy Joggers For Women",
+        "brand": "PURE CHAMP",
+        "price": 35.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0HCF59BR8",
+        "image": "https://m.media-amazon.com/images/I/817Jl4EpRsL._AC_SL1500_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 50,
+        "gender": "women",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B09ZCTGNYD",
+        "title": "PURE CHAMP Sweatpants for Men 3 Pack Fleece Athletic Joggers, Baggy Wide Legs Mens Sweatpants with Zipper Pockets Size S-5XL",
+        "brand": "PURE CHAMP",
+        "price": 39.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09ZCTGNYD",
+        "image": "https://m.media-amazon.com/images/I/91XUMIlN-fL._AC_SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 24127,
+        "gender": "men",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": -10,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0C7X7N1XW-B0B5YLCTSN",
+      "category": "clothing",
+      "productType": "sweatpants",
+      "womens": {
+        "asin": "B0C7X7N1XW",
+        "title": "BottomLine 3 Pack Sweatpants Women, Fleece Womens Joggers with Pockets",
+        "brand": "BottomLine",
+        "price": 29.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0C7X7N1XW",
+        "image": "https://m.media-amazon.com/images/I/81QBdxWSL-L._AC_SL1500_.jpg",
+        "rating": 4,
+        "reviewsCount": 3367,
+        "gender": "women",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0B5YLCTSN",
+        "title": "Ultra Performance Mens Sweatpants 3 Pack Fleece Cargo Joggers, with Pockets",
+        "brand": "Ultra Performance",
+        "price": 37.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0B5YLCTSN",
+        "image": "https://m.media-amazon.com/images/I/61bObDNX4AL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 3479,
+        "gender": "men",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.51,
+      "markupPct": -21.1,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0HD9QQKP2-B0C7WMGDZ3",
+      "category": "clothing",
+      "productType": "sweatpants",
+      "womens": {
+        "asin": "B0HD9QQKP2",
+        "title": "5 Pack Women's Fleece Wide Leg Sweatpants",
+        "brand": "Prarimvee",
+        "price": 53.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0HD9QQKP2",
+        "image": "https://m.media-amazon.com/images/I/71qcdCtmxpL._AC_SL1500_.jpg",
+        "rating": 3.6,
+        "reviewsCount": 12,
+        "gender": "women",
+        "size": {
+          "value": 5,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0C7WMGDZ3",
+        "title": "Ultra Performance Mens Sweatpants 3 Pack Wide Leg Open Bottom Fleece Sweats",
+        "brand": "Ultra Performance",
+        "price": 37.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0C7WMGDZ3",
+        "image": "https://m.media-amazon.com/images/I/712SU8xHZ9L._AC_SL1500_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 1752,
+        "gender": "men",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.41,
+      "markupPct": -14.7,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0FTCTVX8Y-B000M28FH6",
+      "category": "clothing",
+      "productType": "socks",
+      "womens": {
+        "asin": "B0FTCTVX8Y",
+        "title": "adidas Women's Athletic Cushioned Quarter Ankle Socks 6 Pairs",
+        "brand": "adidas",
+        "price": 18.19,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FTCTVX8Y",
+        "image": "https://m.media-amazon.com/images/I/813vaGmTYNL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 6350,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B000M28FH6",
+        "title": "adidas Men's Athletic Cushioned Quarter Ankle Socks 6 Pairs",
+        "brand": "adidas",
+        "price": 16.9,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B000M28FH6",
+        "image": "https://m.media-amazon.com/images/I/71H90AperAL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 23634,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.85,
+      "markupPct": 7.6,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0CHBL82QL-B0DC8Z1247",
+      "category": "clothing",
+      "productType": "socks",
+      "womens": {
+        "asin": "B0CHBL82QL",
+        "title": "adidas Women's Athletic Cushioned Crew Socks 6 Pairs",
+        "brand": "adidas",
+        "price": 15.6,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CHBL82QL",
+        "image": "https://m.media-amazon.com/images/I/81Gfaf69ZtL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 5958,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0DC8Z1247",
+        "title": "adidas Mens Athletic Crew Socks 6 Pairs Casual - White",
+        "brand": "adidas",
+        "price": 15.6,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DC8Z1247",
+        "image": "https://m.media-amazon.com/images/I/81IldKDVMJL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 51209,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.66,
+      "markupPct": 0,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DPJNGP26-B0DQ3NPZC4",
+      "category": "clothing",
+      "productType": "socks",
+      "womens": {
+        "asin": "B0DPJNGP26",
+        "title": "15 Pairs Womens Ankle Socks Lightweight Breathable Casual Low Cut Socks for Women With Heel Tab",
+        "brand": "shnn",
+        "price": 9.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DPJNGP26",
+        "image": "https://m.media-amazon.com/images/I/71Zw9XfdzaL._AC_SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 3937,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0DQ3NPZC4",
+        "title": "12 Pairs Mens Ankle Socks Athletic Casual Low Cut Short Socks for Men",
+        "brand": "shnn",
+        "price": 9.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DQ3NPZC4",
+        "image": "https://m.media-amazon.com/images/I/61cnKYRXdWL._AC_SL1280_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 2278,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.63,
+      "markupPct": 0,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B08XQY85XL-B08SX2G5MW",
+      "category": "clothing",
+      "productType": "pajamas",
+      "womens": {
+        "asin": "B08XQY85XL",
+        "title": "Amazon Essentials Women's Cotton Modal Long-Sleeve Notch Collar Shirt and Full-Length Elastic Waist Pajama Pant Set",
+        "brand": "Amazon Essentials",
+        "price": 22.9,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B08XQY85XL",
+        "image": "https://m.media-amazon.com/images/I/61hxixRy+SL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 10882,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B08SX2G5MW",
+        "title": "Amazon Essentials Men's 100% Cotton Flannel Pant and Long-Sleeve T-Shirt Pajama Set",
+        "brand": "Amazon Essentials",
+        "price": 17.43,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B08SX2G5MW",
+        "image": "https://m.media-amazon.com/images/I/71xG0kVhgZL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 890,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.59,
+      "markupPct": 31.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0H7SVVQW8-B0H82K5XQY",
+      "category": "clothing",
+      "productType": "pajamas",
+      "womens": {
+        "asin": "B0H7SVVQW8",
+        "title": "Ekouaer Womens Pajama Sets Long Sleeve Sleepwear Button Down Pjs Loungewear",
+        "brand": "Ekouaer",
+        "price": 24.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H7SVVQW8",
+        "image": "https://m.media-amazon.com/images/I/818Jg+zZU8L._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 121,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0H82K5XQY",
+        "title": "Ekouaer Mens Pajamas Set Long Sleeve Button Down Pjs Long Pants with Pocket",
+        "brand": "Ekouaer",
+        "price": 26.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H82K5XQY",
+        "image": "https://m.media-amazon.com/images/I/81gSFFfeXVL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 54,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.59,
+      "markupPct": -7.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0FBCNTKMS-B0FL3RNKB8",
+      "category": "hygiene",
+      "productType": "shampoo",
+      "womens": {
+        "asin": "B0FBCNTKMS",
+        "title": "Dove Shampoo Coconut & Hydration 28 Fl oz Conditioner Coconut & Hydration 28 Fl oz",
+        "brand": "Dove",
+        "price": 17.68,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FBCNTKMS",
+        "image": "https://m.media-amazon.com/images/I/71HyngpL5AL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 76,
+        "gender": "women",
+        "size": {
+          "value": 28,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0FL3RNKB8",
+        "title": "DOVE MEN + CARE 2-in-1 Shampoo + Conditioner Hydration Fuel, 18 FL OZ",
+        "brand": "DOVE MEN + CARE",
+        "price": 7.88,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FL3RNKB8",
+        "image": "https://m.media-amazon.com/images/I/61A1+Z311JL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 496,
+        "gender": "men",
+        "size": {
+          "value": 18,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.82,
+      "markupPct": 44.2,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0FBC42252-B0FL3YGQFF",
+      "category": "hygiene",
+      "productType": "shampoo",
+      "womens": {
+        "asin": "B0FBC42252",
+        "title": "Dove Shampoo Intensive Repair 28 Fl oz Conditioner Intensive Repair 28 Fl oz",
+        "brand": "Dove",
+        "price": 12.04,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FBC42252",
+        "image": "https://m.media-amazon.com/images/I/41tRjccZmEL._SL1001_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 869,
+        "gender": "women",
+        "size": {
+          "value": 28,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0FL3YGQFF",
+        "title": "DOVE MEN + CARE 2-in-1 Shampoo + Conditioner Anti-Dandruff 1 ct, 18 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 7.88,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FL3YGQFF",
+        "image": "https://m.media-amazon.com/images/I/71KY3RR3FjL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 262,
+        "gender": "men",
+        "size": {
+          "value": 18,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": -1.8,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B01INE0KAY-B0CMW8D29K",
+      "category": "hygiene",
+      "productType": "shampoo",
+      "womens": {
+        "asin": "B01INE0KAY",
+        "title": "Dove Daily Moisture Shampoo for Dry Hair with Hyaluronic Serum 12oz 4ct",
+        "brand": "Dove",
+        "price": 15.15,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01INE0KAY",
+        "image": "https://m.media-amazon.com/images/I/71oNvqHRDgL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 6868,
+        "gender": "women",
+        "size": {
+          "value": 48,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0CMW8D29K",
+        "title": "Dove Men+Care Hydrating 2-in-1 Shampoo & Conditioner for Dry Hair 17.5oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 11.44,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CMW8D29K",
+        "image": "https://m.media-amazon.com/images/I/71sEK1owK9L._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 5072,
+        "gender": "men",
+        "size": {
+          "value": 17.5,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": -51.7,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0FR5DLMXM-B0FL45V52M",
+      "category": "hygiene",
+      "productType": "shampoo",
+      "womens": {
+        "asin": "B0FR5DLMXM",
+        "title": "Dove Derma Scalp Dandruff & Itch Relief Shampoo, Pyrithione Zinc, 16 Fl oz",
+        "brand": "Dove",
+        "price": 9.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FR5DLMXM",
+        "image": "https://m.media-amazon.com/images/I/712UKG29NcL._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 643,
+        "gender": "women",
+        "size": {
+          "value": 16,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0FL45V52M",
+        "title": "Dove Men+Care Shampoo 1 ct Cooling Scalp Relief with Icy Menthol, 18 FL OZ",
+        "brand": "DOVE MEN + CARE",
+        "price": 7.88,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FL45V52M",
+        "image": "https://m.media-amazon.com/images/I/61T4U3-EZHL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 154,
+        "gender": "men",
+        "size": {
+          "value": 18,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.67,
+      "markupPct": 42.3,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0FKHKQ6FF-B0DSCL3HK8",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0FKHKQ6FF",
+        "title": "Dove Vanilla Body Wash for Hydrated & Soft Skin, 20 oz",
+        "brand": "Dove",
+        "price": 8.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FKHKQ6FF",
+        "image": "https://m.media-amazon.com/images/I/71F5PKokeRL._SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 1173,
+        "gender": "women",
+        "size": {
+          "value": 20,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0DSCL3HK8",
+        "title": "DOVE MEN + CARE Body Wash For Hydrated, Smooth Skin, 4 Count, 18 fl oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 28.76,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DSCL3HK8",
+        "image": "https://m.media-amazon.com/images/I/81hLZzawBxL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53174,
+        "gender": "men",
+        "size": {
+          "value": 72,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.81,
+      "markupPct": 12.3,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0CCST3RB6-B0GF9MJY9W",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0CCST3RB6",
+        "title": "Dove Body Wash Variety Collection 20oz 4ct, Sulfate Free",
+        "brand": "Dove",
+        "price": 35.96,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CCST3RB6",
+        "image": "https://m.media-amazon.com/images/I/81v08a62FgL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 3533,
+        "gender": "women",
+        "size": {
+          "value": 80,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0GF9MJY9W",
+        "title": "DOVE MEN Fig + Cedarwood Moisturizing Body Wash, Sulfate Free, 26 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 8.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GF9MJY9W",
+        "image": "https://m.media-amazon.com/images/I/71eV-enzTxL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53174,
+        "gender": "men",
+        "size": {
+          "value": 26,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.75,
+      "markupPct": 30.1,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B07VCVDRKG-B0DNSS8NQ7",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B07VCVDRKG",
+        "title": "Dove Moisturizing Body Wash, Variety 6-Pack, 15.2 Oz Ea",
+        "brand": "Dove",
+        "price": 37.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07VCVDRKG",
+        "image": "https://m.media-amazon.com/images/I/61jamNyHA9L._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 25669,
+        "gender": "women",
+        "size": {
+          "value": 91.19999999999999,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0DNSS8NQ7",
+        "title": "DOVE MEN Moisturizing Body Wash for Men, Blackcurrant + Cedarwood, 26 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 10.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DNSS8NQ7",
+        "image": "https://m.media-amazon.com/images/I/71P4kH07rsL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 3231,
+        "gender": "men",
+        "size": {
+          "value": 26,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.74,
+      "markupPct": -1.3,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0BVBYQGTW-B0F8MF1CTB",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0BVBYQGTW",
+        "title": "Dove Body Wash Sensitive Skin 30.6 oz Pump 3 Pack, Sulfate Free",
+        "brand": "Dove",
+        "price": 38.91,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0BVBYQGTW",
+        "image": "https://m.media-amazon.com/images/I/71xFxwRSOUL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 64444,
+        "gender": "women",
+        "size": {
+          "value": 91.80000000000001,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0F8MF1CTB",
+        "title": "DOVE MEN + CARE Body & Face Wash Sensitive Skin, Hydrated & Smooth, 30 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 11.89,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0F8MF1CTB",
+        "image": "https://m.media-amazon.com/images/I/71eQMcCCdLL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 1094,
+        "gender": "men",
+        "size": {
+          "value": 30,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.73,
+      "markupPct": 6.9,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0CLKNYZ71-B0CNL19TQG",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0CLKNYZ71",
+        "title": "Dove Relax Body Wash, Lavender Oil & Chamomile, 30.6 oz",
+        "brand": "Dove",
+        "price": 12.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CLKNYZ71",
+        "image": "https://m.media-amazon.com/images/I/7148rmcsGWL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 3111,
+        "gender": "women",
+        "size": {
+          "value": 30.6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0CNL19TQG",
+        "title": "DOVE MEN Moisturizing Body Wash for Men, Eucalyptus + Cedar Oil, 26oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 10.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CNL19TQG",
+        "image": "https://m.media-amazon.com/images/I/61macDNOmnL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53174,
+        "gender": "men",
+        "size": {
+          "value": 26,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": 0.3,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0BV4SCSBH-B0D14XB36V",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0BV4SCSBH",
+        "title": "Dove Body Wash with Natural Nourishers for Instantly Soft Skin and Lasting Nourishment Deep Moisture Cleanser That Effectively Washes Away Bacteria While Nourishing Your Skin 20 oz (Pack of 4)",
+        "brand": "Dove",
+        "price": 35.88,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0BV4SCSBH",
+        "image": "https://m.media-amazon.com/images/I/71Dwy8vl4oL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 3672,
+        "gender": "women",
+        "size": {
+          "value": 80,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0D14XB36V",
+        "title": "Dove Men+Care Body Wash for Fresh Skin | Extra Fresh | Washes Away Bacteria | Nourishing Formula | 13.5 oz 2-Pack",
+        "brand": "DOVE MEN + CARE",
+        "price": 11.48,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0D14XB36V",
+        "image": "https://m.media-amazon.com/images/I/71cvuo6+bKL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 9441,
+        "gender": "men",
+        "size": {
+          "value": 27,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.69,
+      "markupPct": 5.5,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0GWMYPGHB-B0GF9QF3SK",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0GWMYPGHB",
+        "title": "Dove Body Wash Pistachio & Vanilla Cream 20 oz, Sulfate Free",
+        "brand": "Dove",
+        "price": 6.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GWMYPGHB",
+        "image": "https://m.media-amazon.com/images/I/61qNzwvY-AL._SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 404,
+        "gender": "women",
+        "size": {
+          "value": 20,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0GF9QF3SK",
+        "title": "DOVE MEN Moisturizing Body Wash for Men, Bourbon Vanilla + Hazelnut, 26oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 8.96,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GF9QF3SK",
+        "image": "https://m.media-amazon.com/images/I/613xXgEOy2L._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53174,
+        "gender": "men",
+        "size": {
+          "value": 26,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.69,
+      "markupPct": 1.4,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B00MEDOY2G-B0CGY43225",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B00MEDOY2G",
+        "title": "Dove Deep Moisture Body Wash, 30.6 oz Pump, Sulfate Free",
+        "brand": "Dove",
+        "price": 12.79,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00MEDOY2G",
+        "image": "https://m.media-amazon.com/images/I/71JxjmbExxL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 87092,
+        "gender": "women",
+        "size": {
+          "value": 30.6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0CGY43225",
+        "title": "DOVE MEN + CARE Body and Face Wash Exfoliating Deep Clean for Men, 30 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 10.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CGY43225",
+        "image": "https://m.media-amazon.com/images/I/71cNQksDHxL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53174,
+        "gender": "men",
+        "size": {
+          "value": 30,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.69,
+      "markupPct": 14.3,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B07ND4W7WR-B0GF9RX4FZ",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B07ND4W7WR",
+        "title": "Dove Body Wash Restore Coconut & Cocoa Butter 30.6 oz Pump, Sulfate Free",
+        "brand": "Dove",
+        "price": 12.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07ND4W7WR",
+        "image": "https://m.media-amazon.com/images/I/71PWGRuxYuL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 3386,
+        "gender": "women",
+        "size": {
+          "value": 30.6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0GF9RX4FZ",
+        "title": "DOVE MEN Moisturizing Body Wash for Men, Coconut + Guava, 26 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 8.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GF9RX4FZ",
+        "image": "https://m.media-amazon.com/images/I/71G9DOfr3fL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53174,
+        "gender": "men",
+        "size": {
+          "value": 26,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.67,
+      "markupPct": 22.7,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0FBGWN3YH-B0CNKZW8HL",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0FBGWN3YH",
+        "title": "Dove Peony & Rose Oil Body Wash 30.6 oz Pump, Sulfate free",
+        "brand": "Dove",
+        "price": 12.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FBGWN3YH",
+        "image": "https://m.media-amazon.com/images/I/719rXfpxw+L._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 4681,
+        "gender": "women",
+        "size": {
+          "value": 30.6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0CNKZW8HL",
+        "title": "DOVE MEN Moisturizing Body Wash for Men, Sandalwood + Cardamom Oil, 26oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 10.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CNKZW8HL",
+        "image": "https://m.media-amazon.com/images/I/61lzSyUX3FL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 53174,
+        "gender": "men",
+        "size": {
+          "value": 26,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.67,
+      "markupPct": 0.5,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B09DDD6YGJ-B0GWN873T4",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B09DDD6YGJ",
+        "title": "Dove Body Wash Antibacterial For All Skin Types 30.6 oz Pump, Sulfate Free",
+        "brand": "Dove",
+        "price": 12.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09DDD6YGJ",
+        "image": "https://m.media-amazon.com/images/I/71kPQ2aYqLL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 7500,
+        "gender": "women",
+        "size": {
+          "value": 30.6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0GWN873T4",
+        "title": "DOVE MEN + CARE Antibacterial Face & Body Wash, Apple Musk, 30 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 11.31,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GWN873T4",
+        "image": "https://m.media-amazon.com/images/I/71-QdGeenEL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 174,
+        "gender": "men",
+        "size": {
+          "value": 30,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.66,
+      "markupPct": 12.4,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0GS79N7TL-B0DM6F8KZS",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0GS79N7TL",
+        "title": "Dove Body Wash for women 3 count Mixed Summer Variety Pack 20 fl oz",
+        "brand": "Dove",
+        "price": 26.82,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GS79N7TL",
+        "image": "https://m.media-amazon.com/images/I/812-k8mM7oL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 480,
+        "gender": "women",
+        "size": {
+          "value": 60,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0DM6F8KZS",
+        "title": "DOVE MEN + CARE Body and Face Scrub, Charcoal Body Wash, 30 oz",
+        "brand": "DOVE MEN + CARE",
+        "price": 10.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DM6F8KZS",
+        "image": "https://m.media-amazon.com/images/I/71x9PabhJaL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 1140,
+        "gender": "men",
+        "size": {
+          "value": 30,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.66,
+      "markupPct": 22.2,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B00AJK8EWC-B00GXZS5VW",
+      "category": "hygiene",
+      "productType": "face wash",
+      "womens": {
+        "asin": "B00AJK8EWC",
+        "title": "NIVEA Gentle Face Wash Gel Cream for Dry & Sensitive Skin with Almond Oil, Daily Facial Cleanser for Soft and Fresh Feeling Skin, Creamy Face Cleansing Wash, 150 ml / 5.07 fl oz",
+        "brand": "NIVEA",
+        "price": 24.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00AJK8EWC",
+        "image": "https://m.media-amazon.com/images/I/71aAxL96XWL._SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 309,
+        "gender": "women",
+        "size": {
+          "value": 5.07,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B00GXZS5VW",
+        "title": "NIVEA MEN Sensitive Face Wash, Gentle Face Cleanser for Men, 5 FL OZ",
+        "brand": "NIVEA MEN",
+        "price": 8.29,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00GXZS5VW",
+        "image": "https://m.media-amazon.com/images/I/71HH+Q1t3qL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 5270,
+        "gender": "men",
+        "size": {
+          "value": 5,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.68,
+      "markupPct": 197.2,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B002P3X0FM-B006LX9UWO",
+      "category": "hygiene",
+      "productType": "face wash",
+      "womens": {
+        "asin": "B002P3X0FM",
+        "title": "Nivea Refreshing Face Wash | Normal Skin With Vitamin E | 150ml (5.07 Fl Oz)",
+        "brand": "NIVEA",
+        "price": 8.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B002P3X0FM",
+        "image": "https://m.media-amazon.com/images/I/518WnJSfcOL._SL1080_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 253,
+        "gender": "women",
+        "size": {
+          "value": 5.07,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B006LX9UWO",
+        "title": "Nivea Men Oil Control Face Wash | 3.53Oz/100g",
+        "brand": "NIVEA",
+        "price": 7.17,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B006LX9UWO",
+        "image": "https://m.media-amazon.com/images/I/518Sqtubf1L._SL1000_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 25328,
+        "gender": "men",
+        "size": {
+          "value": 3.53,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.66,
+      "markupPct": -12.7,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B00DG8EZKO-B00DEX61A8",
+      "category": "hygiene",
+      "productType": "lotion",
+      "womens": {
+        "asin": "B00DG8EZKO",
+        "title": "NIVEA Intense Healing Body Lotion, 72-Hour Moisturizing Lotion,16.9 FL OZ",
+        "brand": "NIVEA",
+        "price": 4.79,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00DG8EZKO",
+        "image": "https://m.media-amazon.com/images/I/61nIWVHSZzL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 30817,
+        "gender": "women",
+        "size": {
+          "value": 16.9,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B00DEX61A8",
+        "title": "NIVEA MEN Maximum Hydration Lotion, 48-Hour Body Moisturizer, 16.9 FL OZ",
+        "brand": "NIVEA MEN",
+        "price": 7.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00DEX61A8",
+        "image": "https://m.media-amazon.com/images/I/71-aQ+6ozwL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 25435,
+        "gender": "men",
+        "size": {
+          "value": 16.9,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": -39.9,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B07F2GTD63-B0GZRMZ7BY",
+      "category": "hygiene",
+      "productType": "lotion",
+      "womens": {
+        "asin": "B07F2GTD63",
+        "title": "NIVEA Nourishing Hydration Skin Firming Body Lotion, 16.9 FL OZ",
+        "brand": "NIVEA",
+        "price": 10.27,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07F2GTD63",
+        "image": "https://m.media-amazon.com/images/I/612XAy3O1VL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 16554,
+        "gender": "women",
+        "size": {
+          "value": 16.9,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0GZRMZ7BY",
+        "title": "NIVEA Men Max Hydration Lotion - 400 ml - 2 Pack",
+        "brand": "NIVEA",
+        "price": 19.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GZRMZ7BY",
+        "image": "https://m.media-amazon.com/images/I/61GqahCX3aL._SL1500_.jpg",
+        "rating": 5,
+        "reviewsCount": 4,
+        "gender": "men",
+        "size": {
+          "value": 27.051245202630735,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.68,
+      "markupPct": -17.8,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B01H6OYPU8-B07K4T5D6D",
+      "category": "hygiene",
+      "productType": "lotion",
+      "womens": {
+        "asin": "B01H6OYPU8",
+        "title": "NIVEA Cocoa Butter Body Cream for Dry Skin, 16 OZ",
+        "brand": "NIVEA",
+        "price": 7.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01H6OYPU8",
+        "image": "https://m.media-amazon.com/images/I/71g20J3JfgL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 29098,
+        "gender": "women",
+        "size": {
+          "value": 16,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B07K4T5D6D",
+        "title": "Nivea Men Max Hydration Body Cream 13.5 oz",
+        "brand": "NIVEA",
+        "price": 13.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07K4T5D6D",
+        "image": "https://m.media-amazon.com/images/I/61UpNCnbn1L._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 437,
+        "gender": "men",
+        "size": {
+          "value": 13.5,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.66,
+      "markupPct": -50.1,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B07VCV6C78-B01AT6B6KC",
+      "category": "hygiene",
+      "productType": "lotion",
+      "womens": {
+        "asin": "B07VCV6C78",
+        "title": "NIVEA Oil In Lotion Body Lotion, Coconut and Monoi Oil, 16.9 FL OZ",
+        "brand": "NIVEA",
+        "price": 6.4,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07VCV6C78",
+        "image": "https://m.media-amazon.com/images/I/61q5MMuRp-L._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 1234,
+        "gender": "women",
+        "size": {
+          "value": 16.9,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B01AT6B6KC",
+        "title": "NIVEA MEN Creme, Face, Hand and Body Lotion, 5.3 OZ",
+        "brand": "NIVEA MEN",
+        "price": 9.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01AT6B6KC",
+        "image": "https://m.media-amazon.com/images/I/71Vc-ZSJ6qL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 6999,
+        "gender": "men",
+        "size": {
+          "value": 5.3,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.66,
+      "markupPct": -79.9,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0G3XSMC7X-B0CP4KJW42",
+      "category": "hygiene",
+      "productType": "shaving cream",
+      "womens": {
+        "asin": "B0G3XSMC7X",
+        "title": "Venus Smoothing Skin Cleanser + Shave Gel for Women, 2-in-1 formula,190ml",
+        "brand": "Gillette Venus",
+        "price": 9.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0G3XSMC7X",
+        "image": "https://m.media-amazon.com/images/I/61l4OxGPhcL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 126,
+        "gender": "women",
+        "size": {
+          "value": 6.4246707356248,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0CP4KJW42",
+        "title": "Gillette SkinGuard Shave Gel for Men, 7 oz Skin Protect Shave Gel with Shea Butter and Vitamin E",
+        "brand": "Gillette",
+        "price": 6.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CP4KJW42",
+        "image": "https://m.media-amazon.com/images/I/41Toeq+KjnL._SL1000_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 537,
+        "gender": "men",
+        "size": {
+          "value": 7,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.67,
+      "markupPct": 55.4,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B09TRNJRSG-B0DT7M16D1",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B09TRNJRSG",
+        "title": "Flamingo Shaving Razor Set for Women - Original Razor Handle, 4 Refills",
+        "brand": "Flamingo",
+        "price": 15.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09TRNJRSG",
+        "image": "https://m.media-amazon.com/images/I/713vB6S0uAL._SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 6738,
+        "gender": "women",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0DT7M16D1",
+        "title": "Harry's Original Shaving Kit for Men - Razor Handle, 15 Razor Blade Refills",
+        "brand": "Harry's",
+        "price": 28.38,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DT7M16D1",
+        "image": "https://m.media-amazon.com/images/I/61Df8qjbMGL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 2763,
+        "gender": "men",
+        "size": {
+          "value": 15,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.87,
+      "markupPct": 111.3,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0BSXTHYR6-B09PNXRS17",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0BSXTHYR6",
+        "title": "Flamingo Shaving Razor Set for Women - Razor Handle, 4 Blade Refills",
+        "brand": "Flamingo",
+        "price": 18.63,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0BSXTHYR6",
+        "image": "https://m.media-amazon.com/images/I/71SNeqb6WUL._SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 6738,
+        "gender": "women",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B09PNXRS17",
+        "title": "Harry's Original Shaving Kit for Men - Razor Handle, 3 Razor Blade Refills",
+        "brand": "Harry's",
+        "price": 12.17,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09PNXRS17",
+        "image": "https://m.media-amazon.com/images/I/71OmSPGDXTL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 13232,
+        "gender": "men",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.87,
+      "markupPct": 14.8,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0CLH8FM9Q-B07SH9BCC9",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0CLH8FM9Q",
+        "title": "Flamingo Pubic Hair Razor Shaving Kit for Women - Razor Handle, 4 Refills",
+        "brand": "Flamingo",
+        "price": 17.26,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CLH8FM9Q",
+        "image": "https://m.media-amazon.com/images/I/617N8WsQZbL._SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 340,
+        "gender": "women",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B07SH9BCC9",
+        "title": "Harry's Original Shaving Kit for Men - Razor Handle, 5 Refills, Shave Gel",
+        "brand": "Harry's",
+        "price": 19.63,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07SH9BCC9",
+        "image": "https://m.media-amazon.com/images/I/71vtuYABoAL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 19702,
+        "gender": "men",
+        "size": {
+          "value": 5,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.78,
+      "markupPct": 9.9,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0DNZYK79R-B0FHQX45XJ",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0DNZYK79R",
+        "title": "Flamingo Moisture Plus Women's Razor Set - Razor Handle, 4 Blade Refills",
+        "brand": "Flamingo",
+        "price": 13.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DNZYK79R",
+        "image": "https://m.media-amazon.com/images/I/61f01Y2n0aL._SL1500_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 746,
+        "gender": "women",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0FHQX45XJ",
+        "title": "Harry's Plus Shaving Kit for Men - Premium Handle, 5 Razor Blade Cartridges",
+        "brand": "Harry's",
+        "price": 24,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FHQX45XJ",
+        "image": "https://m.media-amazon.com/images/I/71rtyabd07L._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 1199,
+        "gender": "men",
+        "size": {
+          "value": 5,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.73,
+      "markupPct": -29.7,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B09TRM97WJ-B09SGK9FWZ",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B09TRM97WJ",
+        "title": "Flamingo Women's Original Razor Blade Refill Cartridges - 10 Count",
+        "brand": "Flamingo",
+        "price": 20.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09TRM97WJ",
+        "image": "https://m.media-amazon.com/images/I/81UB-xrOtzL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 6731,
+        "gender": "women",
+        "size": {
+          "value": 10,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B09SGK9FWZ",
+        "title": "Harry's Original Razor Blades for Men - 10 Count",
+        "brand": "Harry's",
+        "price": 24.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09SGK9FWZ",
+        "image": "https://m.media-amazon.com/images/I/71-sjaK14UL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 36039,
+        "gender": "men",
+        "size": {
+          "value": 10,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": -18,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B09TRLY11M-B09SGLQNS5",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B09TRLY11M",
+        "title": "Flamingo Women's Original Razor Blade Refill Cartridges - 6 Count",
+        "brand": "Flamingo",
+        "price": 13.79,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09TRLY11M",
+        "image": "https://m.media-amazon.com/images/I/71kMsd68DcL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 6731,
+        "gender": "women",
+        "size": {
+          "value": 6,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B09SGLQNS5",
+        "title": "Harry's Original Razor Blades for Men - 14 Count",
+        "brand": "Harry's",
+        "price": 29.16,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09SGLQNS5",
+        "image": "https://m.media-amazon.com/images/I/71dUEXxukSL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 36039,
+        "gender": "men",
+        "size": {
+          "value": 14,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": 10.3,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0FHC3RHWZ-B0DT7KC29W",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0FHC3RHWZ",
+        "title": "Flamingo Razors for Women - Razor Handle and 13 Blade Refills",
+        "brand": "Flamingo",
+        "price": 28.44,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FHC3RHWZ",
+        "image": "https://m.media-amazon.com/images/I/71iXPRQ2vAL._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 225,
+        "gender": "women",
+        "size": {
+          "value": 13,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0DT7KC29W",
+        "title": "Harry's Original Shaving Kit for Men - 6 Razor Blade Refills, Shave Gel",
+        "brand": "Harry's",
+        "price": 14.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DT7KC29W",
+        "image": "https://m.media-amazon.com/images/I/61WQbPSZzYL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 36039,
+        "gender": "men",
+        "size": {
+          "value": 6,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.69,
+      "markupPct": -9.4,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0FHJ78MM2-B0DL7NPR45",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0FHJ78MM2",
+        "title": "Flamingo Razors for Women - Razor Handle and Blade Refill - Flamingo Pink",
+        "brand": "Flamingo",
+        "price": 14.1,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FHJ78MM2",
+        "image": "https://m.media-amazon.com/images/I/71WKv+iRebL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 635,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0DL7NPR45",
+        "title": "Harry's Razor for Men - Razor Handle and Razor Blade Cartridge",
+        "brand": "Harry's",
+        "price": 8.27,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DL7NPR45",
+        "image": "https://m.media-amazon.com/images/I/61xw3ix6hUL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 1794,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.59,
+      "markupPct": 70.5,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0FR2SWCTN-B0F22Z96Y6",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0FR2SWCTN",
+        "title": "Flamingo Razors for Women - Razor Handle and Blade Refill - Rose",
+        "brand": "Flamingo",
+        "price": 9,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FR2SWCTN",
+        "image": "https://m.media-amazon.com/images/I/61VM73NRM1L._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 274,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0F22Z96Y6",
+        "title": "Harry's Original Razor for Men - Razor Handle and Blade Cartridge",
+        "brand": "Harry's",
+        "price": 8.28,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0F22Z96Y6",
+        "image": "https://m.media-amazon.com/images/I/61uJiCBvnAL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 1794,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.57,
+      "markupPct": 8.7,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0FR2SFQ68-B0GYR15WHK",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0FR2SFQ68",
+        "title": "Flamingo Razors for Women - Razor Handle and Blade Refill - Lilac",
+        "brand": "Flamingo",
+        "price": 9,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FR2SFQ68",
+        "image": "https://m.media-amazon.com/images/I/61YkGHaioTL._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 274,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0GYR15WHK",
+        "title": "Harry's Plus Razor for Men - Premium Handle and Razor Blade Cartridge",
+        "brand": "Harry's",
+        "price": 11.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GYR15WHK",
+        "image": "https://m.media-amazon.com/images/I/71suyk3TY-L._SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 729,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": -24.8,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
       "id": "B0CMW2TLBK-B0DGVP5ZPK",
       "category": "hygiene",
       "productType": "body wash",
@@ -542,45 +2891,45 @@
       "hidden": false
     },
     {
-      "id": "B01ALAVIK4-B00J5J032M",
+      "id": "B07N6W7RPC-B07DZYGDSF",
       "category": "hygiene",
-      "productType": "shaving cream",
+      "productType": "razor",
       "womens": {
-        "asin": "B01ALAVIK4",
-        "title": "Gillette Satin Care Ultra Sensitive Shave Gel for Women, Pack of 2, 7oz Each, Frangrance Free",
+        "asin": "B07N6W7RPC",
+        "title": "Gillette Venus ComfortGlide White Tea Women's Razor 1 Handle + 4 Blade Refills",
         "brand": "Gillette Venus",
-        "price": 6.97,
+        "price": 13.49,
         "currency": "USD",
-        "url": "https://www.amazon.com/dp/B01ALAVIK4",
-        "image": "https://m.media-amazon.com/images/I/71Ngy3eJxYL._SL1500_.jpg",
-        "rating": 4.8,
-        "reviewsCount": 35795,
+        "url": "https://www.amazon.com/dp/B07N6W7RPC",
+        "image": "https://m.media-amazon.com/images/I/81osfFgn1VL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 21718,
         "gender": "women",
         "size": {
-          "value": 14,
-          "unit": "oz"
+          "value": 4,
+          "unit": "count"
         }
       },
       "mens": {
-        "asin": "B00J5J032M",
-        "title": "Gillette Series Soothing Shaving Gel for Men, Protects Against 5 Signs of Shaving Irritation, Shave Gel With Aloe Vera, Suitable for Sensitive Skin, 2.5 oz",
+        "asin": "B07DZYGDSF",
+        "title": "Gillette Fusion ProGlide Shaving Razor for Men, 1 Handle + 4 Blade Refills",
         "brand": "Gillette",
-        "price": 4.11,
+        "price": 19.99,
         "currency": "USD",
-        "url": "https://www.amazon.com/dp/B00J5J032M",
-        "image": "https://m.media-amazon.com/images/I/61CYe4pRcVL._SL1500_.jpg",
-        "rating": 4.4,
-        "reviewsCount": 488,
+        "url": "https://www.amazon.com/dp/B07DZYGDSF",
+        "image": "https://m.media-amazon.com/images/I/81ZdkxpceuL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 35490,
         "gender": "men",
         "size": {
-          "value": 2.5,
-          "unit": "oz"
+          "value": 4,
+          "unit": "count"
         }
       },
-      "matchScore": 0.62,
-      "markupPct": -69.7,
+      "matchScore": 0.73,
+      "markupPct": -32.5,
       "basis": "unit",
-      "unitLabel": "per oz",
+      "unitLabel": "per item",
       "hidden": false
     },
     {
@@ -668,6 +3017,48 @@
       "hidden": false
     },
     {
+      "id": "B09M2QHV2C-B0GT24CH3W",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B09M2QHV2C",
+        "title": "Gillette Venus ComfortGlide White Tea 4 count, with Gillette Venus ComfortGlide plus MoistureGlide 2 count, Women's Razor Blade Refills",
+        "brand": "Gillette Venus",
+        "price": 17.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09M2QHV2C",
+        "image": "https://m.media-amazon.com/images/I/810FNmwY2cL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 5367,
+        "gender": "women",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0GT24CH3W",
+        "title": "Gillette Labs Body + Intimate Razor For Men, Handle + 2 Blade Refills",
+        "brand": "Gillette",
+        "price": 15.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GT24CH3W",
+        "image": "https://m.media-amazon.com/images/I/81twluYG2mL._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 1339,
+        "gender": "men",
+        "size": {
+          "value": 2,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.66,
+      "markupPct": -45.3,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
       "id": "B07CYN88NJ-B07CZCQ481",
       "category": "hygiene",
       "productType": "razor",
@@ -710,43 +3101,79 @@
       "hidden": false
     },
     {
-      "id": "B09M2QHV2C-B072M5FFZ5",
+      "id": "B0039LMTAQ-B0001LQGPG",
       "category": "hygiene",
       "productType": "razor",
       "womens": {
-        "asin": "B09M2QHV2C",
-        "title": "Gillette Venus ComfortGlide White Tea 4 count, with Gillette Venus ComfortGlide plus MoistureGlide 2 count, Women's Razor Blade Refills",
+        "asin": "B0039LMTAQ",
+        "title": "Gillette Venus Sensitive Women's Disposable Razors - Single Package of 3 Razors",
         "brand": "Gillette Venus",
-        "price": 17.49,
+        "price": 6.99,
         "currency": "USD",
-        "url": "https://www.amazon.com/dp/B09M2QHV2C",
-        "image": "https://m.media-amazon.com/images/I/810FNmwY2cL._SL1500_.jpg",
-        "rating": 4.8,
-        "reviewsCount": 5367,
+        "url": "https://www.amazon.com/dp/B0039LMTAQ",
+        "image": "https://m.media-amazon.com/images/I/8147TWDgS5L._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 35501,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0001LQGPG",
+        "title": "Gillette Sensor3 Sensitive Men's Disposable Razor, 4 Razors",
+        "brand": "Gillette",
+        "price": 6.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0001LQGPG",
+        "image": "https://m.media-amazon.com/images/I/81pUCic4ecL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 22677,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.59,
+      "markupPct": 0.3,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DGHVZPQK-B0FRXH9CR4",
+      "category": "hygiene",
+      "productType": "razor",
+      "womens": {
+        "asin": "B0DGHVZPQK",
+        "title": "Billie 3 Blade Disposable Razors for Women, The Malibu Set, 3 ct",
+        "brand": "Billie",
+        "price": 5.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DGHVZPQK",
+        "image": "https://m.media-amazon.com/images/I/71wB6Mq7GxL._SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 4344,
         "gender": "women",
         "size": {
-          "value": 4,
+          "value": 3,
           "unit": "count"
         }
       },
       "mens": {
-        "asin": "B072M5FFZ5",
-        "title": "Gillette ProGlide Shield Men's Razor, 5-Blade Razor with Precision Trimmer, 1 Handle and 4 Refills",
-        "brand": "Gillette",
-        "price": 25,
+        "asin": "B0FRXH9CR4",
+        "title": "20 count Disposable Razors Blades for Men,3-Blade Razors",
+        "brand": "Comfycheer",
+        "price": 9.99,
         "currency": "USD",
-        "url": "https://www.amazon.com/dp/B072M5FFZ5",
-        "image": "https://m.media-amazon.com/images/I/81DvACboI5L._SL1500_.jpg",
-        "rating": 4.7,
-        "reviewsCount": 14129,
+        "url": "https://www.amazon.com/dp/B0FRXH9CR4",
+        "image": "https://m.media-amazon.com/images/I/71ftbZkHWwL._SL1500_.jpg",
+        "rating": 3.8,
+        "reviewsCount": 1095,
         "gender": "men",
         "size": {
-          "value": 4,
+          "value": 20,
           "unit": "count"
         }
       },
-      "matchScore": 0.65,
-      "markupPct": -30,
+      "matchScore": 0.42,
+      "markupPct": 298.4,
       "basis": "unit",
       "unitLabel": "per item",
       "hidden": false
@@ -833,6 +3260,368 @@
       "markupPct": 29.6,
       "basis": "unit",
       "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B000OLTR90-B0062CH78I",
+      "category": "accessories",
+      "productType": "shoes",
+      "womens": {
+        "asin": "B000OLTR90",
+        "title": "Converse Chuck Taylor All Star Low Top Sneaker",
+        "brand": "Converse",
+        "price": 60,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B000OLTR90",
+        "image": "https://m.media-amazon.com/images/I/41c1USnW+pL._AC_SL1100_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 41366,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0062CH78I",
+        "title": "Converse Men's Chuck Taylor All Star Low Top Sneakers",
+        "brand": "Converse",
+        "price": 60,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0062CH78I",
+        "image": "https://m.media-amazon.com/images/I/71g4SFbTybL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 10896,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.74,
+      "markupPct": 0,
+      "basis": "sticker",
+      "unitLabel": null,
+      "womensUnlabeled": true,
+      "hidden": false
+    },
+    {
+      "id": "B0CRDG22TQ-B074ZHN54C",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B0CRDG22TQ",
+        "title": "Fossil Women's Neutra Quartz Stainless Steel Chronograph Watch",
+        "brand": "Fossil",
+        "price": 112.72,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CRDG22TQ",
+        "image": "https://m.media-amazon.com/images/I/71pIVPkEZuL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 320,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B074ZHN54C",
+        "title": "Fossil Men's Watch, Neutra Quartz Stainless Steel Chronograph Watch for Men",
+        "brand": "Fossil",
+        "price": 99.76,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B074ZHN54C",
+        "image": "https://m.media-amazon.com/images/I/71Tg6yQIDaL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 1668,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.85,
+      "markupPct": 13,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B00FF8CDSO-B07PRJJ7DT",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B00FF8CDSO",
+        "title": "Fossil Women's Watch, Virginia Quartz Stainless Steel Three-Hand Watch for Women",
+        "brand": "Fossil",
+        "price": 82.87,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00FF8CDSO",
+        "image": "https://m.media-amazon.com/images/I/71qvd9mcu0L._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 2283,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B07PRJJ7DT",
+        "title": "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch for Men",
+        "brand": "Fossil",
+        "price": 119,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07PRJJ7DT",
+        "image": "https://m.media-amazon.com/images/I/71zdVujnIDL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 508,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.74,
+      "markupPct": -30.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DJ2XHK2N-B0C77NPQFH",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B0DJ2XHK2N",
+        "title": "Fossil Women's Watch, Scarlette Quartz Stainless Steel Three-Hand Watch for Women",
+        "brand": "Fossil",
+        "price": 116.19,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DJ2XHK2N",
+        "image": "https://m.media-amazon.com/images/I/71EYyvL1RLL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 2586,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0C77NPQFH",
+        "title": "Fossil Men's Carraway Quartz Stainless Steel Three-Hand Watch",
+        "brand": "Fossil",
+        "price": 142.31,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0C77NPQFH",
+        "image": "https://m.media-amazon.com/images/I/71R9UXW6d3L._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 732,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.74,
+      "markupPct": -18.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B002QF7LZE-B08QTW81S9",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B002QF7LZE",
+        "title": "Fossil Women's Watch, Jesse Quartz Stainless Steel Three-Hand Watch for Women",
+        "brand": "Fossil",
+        "price": 97.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B002QF7LZE",
+        "image": "https://m.media-amazon.com/images/I/717PhE281UL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 4000,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B08QTW81S9",
+        "title": "Fossil Men's Everett Quartz Stainless Steel Watch, Three-Hand Watch for Men",
+        "brand": "Fossil",
+        "price": 103.95,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B08QTW81S9",
+        "image": "https://m.media-amazon.com/images/I/71E55PTUpaL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 156,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.74,
+      "markupPct": -6.2,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B009BEOAGQ-B0FCVBDMFN",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B009BEOAGQ",
+        "title": "Fossil Women's Watch, Riley Quartz Stainless Steel Multifunction Watch for Women",
+        "brand": "Fossil",
+        "price": 97.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B009BEOAGQ",
+        "image": "https://m.media-amazon.com/images/I/71HAooNcaYL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 22440,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0FCVBDMFN",
+        "title": "Fossil Men's Watch, Autocross Multifunction Stainless Steel Watch for Men",
+        "brand": "Fossil",
+        "price": 107.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FCVBDMFN",
+        "image": "https://m.media-amazon.com/images/I/71DJQGWkpWL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 168,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.66,
+      "markupPct": -9.3,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0D935RB6J-B00AG37H8Y",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B0D935RB6J",
+        "title": "Fossil Women's Watch, Raquel Quartz Stainless Steel Watch for Women",
+        "brand": "Fossil",
+        "price": 121.03,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0D935RB6J",
+        "image": "https://m.media-amazon.com/images/I/71+AjpLw4xL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 59,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B00AG37H8Y",
+        "title": "Fossil Men's Watch, Dean Quartz Stainless Steel Chronograph Watch for Men",
+        "brand": "Fossil",
+        "price": 97.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00AG37H8Y",
+        "image": "https://m.media-amazon.com/images/I/71QoSMBhfVL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 4814,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.66,
+      "markupPct": 24.1,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0GF727TTZ-B0GF71K3YL",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B0GF727TTZ",
+        "title": "Fossil Women's Watch and Bracelet Set, Carlie Three-Hand Stainless Steel Watch for Women and Bracelet Set",
+        "brand": "Fossil",
+        "price": 79.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GF727TTZ",
+        "image": "https://m.media-amazon.com/images/I/61rEXUYa3gL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 11,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0GF71K3YL",
+        "title": "Fossil Men's Watch, Machine Stainless Steel Chronograph Watch for Men",
+        "brand": "Fossil",
+        "price": 127.05,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0GF71K3YL",
+        "image": "https://m.media-amazon.com/images/I/71IGCanAQ1L._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 19,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": -37,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0D93652ZY-B0FCVFWFS4",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B0D93652ZY",
+        "title": "Fossil Women's Watch, Harlow Three-Hand Stainless Steel Bracelet Watch for Women",
+        "brand": "Fossil",
+        "price": 98.56,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0D93652ZY",
+        "image": "https://m.media-amazon.com/images/I/71lfVHlggmL._AC_SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 367,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0FCVFWFS4",
+        "title": "Fossil Men's Watch, Pearson Multifunction Stainless Steel Watch for Men",
+        "brand": "Fossil",
+        "price": 153,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FCVFWFS4",
+        "image": "https://m.media-amazon.com/images/I/71zKoMJLilL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 188,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": -35.6,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B078Y2PJL4-B0183NWFB2",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B078Y2PJL4",
+        "title": "Karli Three-Hand Rose Gold-Tone Stainless Steel Watch",
+        "brand": "Fossil",
+        "price": 97.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B078Y2PJL4",
+        "image": "https://m.media-amazon.com/images/I/611I0f+I+MS._AC_SL1000_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 3389,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0183NWFB2",
+        "title": "Fossil Men's Watch, Townsman Automatic Stainless Steel Watch for Men",
+        "brand": "Fossil",
+        "price": 138.6,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0183NWFB2",
+        "image": "https://m.media-amazon.com/images/I/711Fz-mfHfL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 1337,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.52,
+      "markupPct": -29.7,
+      "basis": "sticker",
+      "unitLabel": null,
+      "womensUnlabeled": true,
       "hidden": false
     },
     {
@@ -1016,37 +3805,109 @@
       "hidden": false
     },
     {
-      "id": "B0FTDYG1QX-B0CYP46CP7",
+      "id": "B0D2X2KP7Q-B0GGZKNV9K",
       "category": "accessories",
-      "productType": "bucket hat",
+      "productType": "sunglasses",
       "womens": {
-        "asin": "B0FTDYG1QX",
-        "title": "adidas Women's Performance Bucket Hat",
-        "brand": "adidas",
-        "price": 21.43,
+        "asin": "B0D2X2KP7Q",
+        "title": "KALIYADI Womens-Sunglasses Polarized Sunglasses-Womens Trendy: Retro Sun Glasses with UV Protection for Travel Driving",
+        "brand": "KALIYADI",
+        "price": 17.99,
         "currency": "USD",
-        "url": "https://www.amazon.com/dp/B0FTDYG1QX",
-        "image": "https://m.media-amazon.com/images/I/71KeDF-nKQL._AC_SL1500_.jpg",
-        "rating": 3.5,
-        "reviewsCount": 7,
+        "url": "https://www.amazon.com/dp/B0D2X2KP7Q",
+        "image": "https://m.media-amazon.com/images/I/71uIj+pZFdL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 1663,
         "gender": "women",
         "size": null
       },
       "mens": {
-        "asin": "B0CYP46CP7",
-        "title": "adidas Mens Victory 5 Bucket Cap Casual - White",
-        "brand": "adidas",
-        "price": 25,
+        "asin": "B0GGZKNV9K",
+        "title": "KALIYADI Sunglasses for Mens Polarized-Sunglasses: Men Sun Glasses with UV400 Protection for Driving Fishing Golf",
+        "brand": "KALIYADI",
+        "price": 8.99,
         "currency": "USD",
-        "url": "https://www.amazon.com/dp/B0CYP46CP7",
-        "image": "https://m.media-amazon.com/images/I/81GyLQyPGYL._AC_SL1500_.jpg",
-        "rating": 4.6,
-        "reviewsCount": 5832,
+        "url": "https://www.amazon.com/dp/B0GGZKNV9K",
+        "image": "https://m.media-amazon.com/images/I/61RtqIVsZSL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 447,
         "gender": "men",
         "size": null
       },
-      "matchScore": 0.46,
-      "markupPct": -14.3,
+      "matchScore": 0.66,
+      "markupPct": 100.1,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0D2PX8Z7G-B0CW11842W",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B0D2PX8Z7G",
+        "title": "LN LENQIN Ladies Watches Analog Quartz Waterproof Watch for Women",
+        "brand": "LN LENQIN",
+        "price": 9.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0D2PX8Z7G",
+        "image": "https://m.media-amazon.com/images/I/61v3wCWp-sL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 1195,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0CW11842W",
+        "title": "LN LENQIN Mens Watches Easy Read Analog Quartz Waterproof Watch for Men",
+        "brand": "LN LENQIN",
+        "price": 15.19,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CW11842W",
+        "image": "https://m.media-amazon.com/images/I/711aig1K54L._AC_SL1500_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 1296,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.72,
+      "markupPct": -34.3,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0CC6R717C-B072P1WLGL",
+      "category": "accessories",
+      "productType": "watch",
+      "womens": {
+        "asin": "B0CC6R717C",
+        "title": "Timex Women's Easy Reader 25mm Watch, Band, Comfortable & Easy-to-Read",
+        "brand": "Timex",
+        "price": 40.2,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CC6R717C",
+        "image": "https://m.media-amazon.com/images/I/71hmyCPISPL._AC_SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 5389,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B072P1WLGL",
+        "title": "Timex Men's Easy Reader 38mm Watch, Dial Strap, Comfortable & Easy-to-Read",
+        "brand": "Timex",
+        "price": 43.11,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B072P1WLGL",
+        "image": "https://m.media-amazon.com/images/I/71KQezDixyL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 12833,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.7,
+      "markupPct": -6.8,
       "basis": "sticker",
       "unitLabel": null,
       "hidden": false
