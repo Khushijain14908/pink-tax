@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import ComparisonCard from "@/components/ComparisonCard";
 import EmptyCatalog from "@/components/EmptyCatalog";
@@ -63,8 +64,14 @@ export default function Home() {
               href={`/category/${c.slug}`}
               className="group rounded-2xl border border-pink-100 bg-pink-50 p-6 transition hover:border-pink-300 hover:shadow-md"
             >
-              <div className="mb-4 flex aspect-video items-center justify-center rounded-xl bg-pink-200 text-sm text-pink-700">
-                Category image
+              <div className="relative mb-4 aspect-video overflow-hidden rounded-xl bg-pink-200">
+                <Image
+                  src={c.image.src}
+                  alt={c.image.alt}
+                  fill
+                  sizes="(min-width: 640px) 33vw, 100vw"
+                  className="object-cover transition duration-300 group-hover:scale-105"
+                />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 group-hover:text-pink-700">{c.name}</h3>
               <p className="mt-1 text-sm text-gray-600">{c.blurb}</p>

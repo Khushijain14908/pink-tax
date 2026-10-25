@@ -15,6 +15,8 @@ export type Category = {
   slug: string;
   name: string;
   blurb: string;
+  // Free Unsplash photo saved in public/categories/.
+  image: { src: string; alt: string };
   // Searched on Amazon as "women's <type>" and "men's <type>" to build the catalog.
   productTypes: string[];
   brandSearches: BrandSearch[];
@@ -37,6 +39,7 @@ export const CATEGORIES: Category[] = [
     slug: "clothing",
     name: "Clothing",
     blurb: "Now with fewer pockets at a higher price.",
+    image: { src: "/categories/clothing.jpg", alt: "Clothing hanging on racks in a boutique" },
     productTypes: [
       "flannel jacket", "shorts", "jeans", "hoodie", "t-shirt", "sweatpants", "socks", "pajamas",
     ],
@@ -51,6 +54,7 @@ export const CATEGORIES: Category[] = [
     slug: "hygiene",
     name: "Hygiene",
     blurb: "Smells like lavender. Costs like a luxury.",
+    image: { src: "/categories/hygiene.jpg", alt: "Two pump bottles of face cleanser on a pink background" },
     productTypes: [
       "shampoo", "body wash", "face wash", "conditioner", "shaving cream", "razor", "deodorant",
       "lotion", "lip balm", "sunscreen",
@@ -68,6 +72,7 @@ export const CATEGORIES: Category[] = [
     slug: "accessories",
     name: "Accessories",
     blurb: "Accessorize your markup.",
+    image: { src: "/categories/accessories.jpg", alt: "Sunglasses, a watch, and a crossbody bag laid out flat" },
     productTypes: [
       "shoes", "bucket hat", "crossbody bag", "phone case", "wallet", "backpack", "sunglasses",
       "watch", "belt",
