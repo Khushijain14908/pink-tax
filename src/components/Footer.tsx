@@ -12,7 +12,7 @@ export default function Footer() {
         </p>
         <p className="mt-4 text-xs text-gray-400">
           {generatedAt
-            ? `Amazon prices collected with Bright Data on ${new Date(generatedAt).toLocaleDateString("en-US", { dateStyle: "long" })}.`
+            ? `Amazon prices collected in real-time with Bright Data, last updated on ${new Date(generatedAt).toLocaleDateString("en-US", { dateStyle: "long" })}.`
             : "Product data hasn't been collected yet."}{" "}
           Category photos from Unsplash.
         </p>
