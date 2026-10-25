@@ -21,7 +21,7 @@ export default function Home() {
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
             Shop products that cost more because they&apos;re marketed to women. We show you the
-            markup and where to buy the same thing for less.
+            markup, side by side with the men&apos;s version.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link href="/category/hygiene" className="rounded-full bg-pink-600 px-6 py-3 font-semibold text-white hover:bg-pink-700">

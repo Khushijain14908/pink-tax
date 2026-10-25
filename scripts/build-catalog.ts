@@ -1,7 +1,7 @@
 // Step 2 of building the catalog: pair the raw search results from scripts/raw/ into
 // src/data/catalog.json. Free — no API calls. Safe to rerun; pairs you marked
 // "hidden": true stay hidden.
-import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { CATEGORIES } from "../src/lib/site";
 import { detectGender, normalizeProduct, type Product } from "../src/lib/products";
 import { compare, pairProducts } from "../src/lib/pinkTax";
@@ -9,8 +9,6 @@ import type { Catalog, CatalogPair } from "../src/lib/catalog";
 import { brandRawFile, rawFile } from "./raw-files";
 
 const CATALOG = "src/data/catalog.json";
-// Every scraped product, used to suggest cheaper alternatives in the link checker.
-const PRODUCTS = "src/data/products.json";
 
 function load(file: string, keep: (p: Product) => boolean): Product[] {
   if (!existsSync(file)) return [];
@@ -89,11 +87,4 @@ for (const category of CATEGORIES) {
 }
 
 writeFileSync(CATALOG, JSON.stringify({ generatedAt: new Date().toISOString(), pairs }, null, 2));
-
-const allProducts = new Map<string, Product>();
-for (const file of readdirSync("scripts/raw").filter((f) => f.endsWith(".json"))) {
-  for (const p of load(`scripts/raw/${file}`, () => true)) allProducts.set(p.asin, p);
-}
-writeFileSync(PRODUCTS, JSON.stringify([...allProducts.values()]));
-console.log(`Wrote ${allProducts.size} products to ${PRODUCTS}.`);
 console.log(`\nWrote ${pairs.length} pairs to ${CATALOG}. Review them and set "hidden": true on bad matches.`);

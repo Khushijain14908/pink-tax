@@ -1,11 +1,9 @@
 // The link checker: Amazon URL in, pink tax verdict out.
 import { fetchProduct, searchProducts } from "./brightdata";
-import { allProducts, findPairByAsin } from "./catalog";
+import { findPairByAsin } from "./catalog";
 import { categoryGender, hasGenderedLines, normalizeProduct, type Product } from "./products";
 import {
-  alternativesKeyword,
   brandFamily,
-  cheaperAlternatives,
   compare,
   counterpartKeyword,
   findBestMatch,
@@ -19,7 +17,6 @@ export type CheckResult = {
   verdict: Verdict | "not-gendered" | "no-match";
   counterpart: Product | null;
   comparison: Comparison | null;
-  alternatives: Product[];
   source: "catalog" | "live";
   // The product isn't labeled "women's"; it's the brand's regular line vs. its men's line.
   womensUnlabeled?: boolean;
@@ -74,7 +71,6 @@ function fromCatalog(asin: string): CheckResult | null {
     verdict: verdict(pair.markupPct),
     counterpart,
     comparison: pair,
-    alternatives: cheaperAlternatives(product, allProducts(), pair.womensUnlabeled && product === pair.womens),
     source: "catalog",
     womensUnlabeled: pair.womensUnlabeled,
   };
@@ -93,23 +89,17 @@ async function live(asin: string): Promise<CheckResult> {
   const womensUnlabeled = product.gender === "neutral" && hasGenderedLines(raw) && !!product.brand;
   if (womensUnlabeled) product = { ...product, gender: "women" };
 
-  const empty = { counterpart: null, comparison: null, alternatives: [], source: "live" as const };
+  const empty = { counterpart: null, comparison: null, source: "live" as const };
   const keyword = counterpartKeyword(product);
   if (!keyword) return { product, verdict: "not-gendered", ...empty };
 
-  // Two searches in parallel: the other gender's version, and other brands for the same audience.
-  const normalize = (records: Record<string, unknown>[]) =>
-    records.map(normalizeProduct).filter((p): p is Product => p !== null);
-  const [counterpartRecords, alternativeRecords] = await Promise.all([
-    searchProducts(keyword),
-    searchProducts(alternativesKeyword(product, womensUnlabeled)),
-  ]);
-  let results = normalize(counterpartRecords);
+  let results = (await searchProducts(keyword))
+    .map(normalizeProduct)
+    .filter((p): p is Product => p !== null);
   if (womensUnlabeled) results = results.filter((p) => brandFamily(p.brand) === brandFamily(product.brand));
-  const alternatives = cheaperAlternatives(product, normalize(alternativeRecords), womensUnlabeled);
 
   const match = findBestMatch(product, results);
-  if (!match) return { product, verdict: "no-match", ...empty, alternatives, womensUnlabeled };
+  if (!match) return { product, verdict: "no-match", ...empty, womensUnlabeled };
 
   const womens = product.gender === "women" ? product : match.product;
   const mens = product.gender === "women" ? match.product : product;
@@ -119,7 +109,6 @@ async function live(asin: string): Promise<CheckResult> {
     verdict: verdict(comparison.markupPct),
     counterpart: match.product,
     comparison,
-    alternatives,
     source: "live",
     womensUnlabeled,
   };

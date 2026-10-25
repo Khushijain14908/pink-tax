@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { CheckResult } from "@/lib/checkProduct";
-import { formatMarkup, formatPrice, formatUnitPrice } from "@/lib/format";
+import { formatMarkup } from "@/lib/format";
 import ProductTile from "./ProductTile";
 
 const LOADING_MESSAGES = [
@@ -115,7 +115,7 @@ const VERDICTS: Record<CheckResult["verdict"], { title: string; note: string; st
 };
 
 function Results({ result }: { result: CheckResult }) {
-  const { product, counterpart, comparison, alternatives } = result;
+  const { product, counterpart, comparison } = result;
   const v = VERDICTS[result.verdict];
   const isWomens = product.gender === "women";
   const herLabel = result.womensUnlabeled ? "Standard" : "For Her";
@@ -161,33 +161,6 @@ function Results({ result }: { result: CheckResult }) {
         </ResultBox>
       )}
 
-      {alternatives.length > 0 && (
-        <ResultBox title="Cheaper Alternatives">
-          <p className="-mt-1 mb-2 text-sm text-gray-500">
-            The same kind of product from other brands, for less per {product.size?.unit === "oz" ? "ounce" : "item"}.
-          </p>
-          <ul className="divide-y divide-pink-100">
-            {alternatives.map((a) => (
-              <li key={a.asin}>
-                <a
-                  href={a.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between gap-4 py-3 text-sm hover:text-pink-700"
-                >
-                  <span className="line-clamp-1 text-gray-800">
-                    {a.title} <span className="text-gray-500">· {a.brand}</span>
-                  </span>
-                  <span className="shrink-0 text-right">
-                    <span className="block font-semibold text-gray-900">{formatPrice(a.price, a.currency)}</span>
-                    <span className="block text-xs text-gray-500">{formatUnitPrice(a)}</span>
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </ResultBox>
-      )}
     </section>
   );
 }
