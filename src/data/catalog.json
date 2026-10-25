@@ -1,6 +1,588 @@
 {
-  "generatedAt": "2026-10-25T03:31:44.396Z",
+  "generatedAt": "2026-10-25T04:30:34.453Z",
   "pairs": [
+    {
+      "id": "B09SBQYX91-B075ZG29D6",
+      "category": "clothing",
+      "productType": "flannel jacket",
+      "womens": {
+        "asin": "B09SBQYX91",
+        "title": "Legendary Whitetails Women's Hooded Shacket Berber Lined Shirt Jacket",
+        "brand": "Legendary Whitetails",
+        "price": 79.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B09SBQYX91",
+        "image": "https://m.media-amazon.com/images/I/81rTovDIFGL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 924,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B075ZG29D6",
+        "title": "Legendary Whitetails Mens Flannel Shirt Jacket Hooded Insulated Shacket",
+        "brand": "Legendary Whitetails",
+        "price": 89.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B075ZG29D6",
+        "image": "https://m.media-amazon.com/images/I/81iYeyrF+NL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 15152,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.63,
+      "markupPct": -11.1,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DB53NF8X-B0FH6BQPF9",
+      "category": "clothing",
+      "productType": "flannel jacket",
+      "womens": {
+        "asin": "B0DB53NF8X",
+        "title": "Women's Full Zip Fleece Flannel Jacket Plaid Sherpa Lined Jacket",
+        "brand": "WINDFIT",
+        "price": 39.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DB53NF8X",
+        "image": "https://m.media-amazon.com/images/I/81-ODKAIujL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 2367,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0FH6BQPF9",
+        "title": "Men's Cotton Sherpa Button Down Flannel Shirt Jacket Plaid Shirt",
+        "brand": "WINDFIT",
+        "price": 39.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FH6BQPF9",
+        "image": "https://m.media-amazon.com/images/I/91PmgCV-rOL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 770,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": 0,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B08P1PK2QB-B01JQTPG3G",
+      "category": "clothing",
+      "productType": "shorts",
+      "womens": {
+        "asin": "B08P1PK2QB",
+        "title": "Amazon Essentials Women's Mid-Rise Slim-Fit 5 Inch Inseam Khaki Shorts (Available in Straight and Curvy Fits)",
+        "brand": "Amazon Essentials",
+        "price": 15.9,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B08P1PK2QB",
+        "image": "https://m.media-amazon.com/images/I/71IEDAVZtDS._AC_SL1500_.jpg",
+        "rating": 4.1,
+        "reviewsCount": 6989,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B01JQTPG3G",
+        "title": "Amazon Essentials Men's 10\" Classic-Fit Cotton Twill Cargo Shorts, Multiple Pockets (Available in Big & Tall)",
+        "brand": "Amazon Essentials",
+        "price": 19.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01JQTPG3G",
+        "image": "https://m.media-amazon.com/images/I/71cRSVZXLVL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 52119,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.47,
+      "markupPct": -18.5,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B073V11Q27-B073V3VKCK",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B073V11Q27",
+        "title": "Levi Strauss Signature Gold Women's '03 Essentials Mid Rise Bootcut Jeans",
+        "brand": "Levi Strauss Signature Gold",
+        "price": 29.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B073V11Q27",
+        "image": "https://m.media-amazon.com/images/I/51hawXmnvLL._AC_SL1000_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 14635,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B073V3VKCK",
+        "title": "Levi Strauss Signature Gold Men's Bootcut Fit Jeans",
+        "brand": "Levi Strauss Signature Gold",
+        "price": 29.2,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B073V3VKCK",
+        "image": "https://m.media-amazon.com/images/I/513XXqMq3xL._AC_SL1000_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 6035,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.55,
+      "markupPct": 2.7,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DJWPJ3DB-B073351YJP",
+      "category": "clothing",
+      "productType": "jeans",
+      "womens": {
+        "asin": "B0DJWPJ3DB",
+        "title": "Levi's Women's 318 Shaping Wide-Leg Jeans",
+        "brand": "Levi's",
+        "price": 44.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DJWPJ3DB",
+        "image": "https://m.media-amazon.com/images/I/51Z6cx9ZumL._AC_SL1000_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 1159,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B073351YJP",
+        "title": "Levi Strauss Signature Gold Men's Straight Fit Jeans",
+        "brand": "Levi Strauss Signature Gold",
+        "price": 26.16,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B073351YJP",
+        "image": "https://m.media-amazon.com/images/I/51EZ2m+BWGL._AC_SL1000_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 10645,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.48,
+      "markupPct": 71.9,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B01B77VXZK-B00JUM4CT4",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B01B77VXZK",
+        "title": "Hanes Women's EcoSmart Fleece Sweatshirt for Women, Soft Midweight - Full-Zip Hoodie, Sweatshirt, or 1/4 Zip",
+        "brand": "Hanes",
+        "price": 11.9,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01B77VXZK",
+        "image": "https://m.media-amazon.com/images/I/71WtVvtH-7L._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 46869,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B00JUM4CT4",
+        "title": "Hanes Men's Zip-up Hoodie, Ecosmart Fleece Full-zip Hoodie for Men, Hooded Sweatshirt",
+        "brand": "Hanes",
+        "price": 12.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00JUM4CT4",
+        "image": "https://m.media-amazon.com/images/I/71fm7+WAt4L._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 90486,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.65,
+      "markupPct": -8.3,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0C7BF5SBF-B0FJL9K6R5",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0C7BF5SBF",
+        "title": "EFAN Women's Hoodies Oversized Sweatshirt Comfort Fleece Sweaters",
+        "brand": "EFAN",
+        "price": 18.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0C7BF5SBF",
+        "image": "https://m.media-amazon.com/images/I/61ZnJHoM+EL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 4017,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0FJL9K6R5",
+        "title": "EFAN Mens Oversized Hoodies Fleece Lined Sweatshirts",
+        "brand": "EFAN",
+        "price": 16.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FJL9K6R5",
+        "image": "https://m.media-amazon.com/images/I/61J7FTJaGYL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 472,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.57,
+      "markupPct": 11.8,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0H4Q7FV39-B0FJR3H93L",
+      "category": "clothing",
+      "productType": "hoodie",
+      "womens": {
+        "asin": "B0H4Q7FV39",
+        "title": "3 Pack Women's Fleece Pullover Hoodies Sweatshirt",
+        "brand": "Prarimvee",
+        "price": 39.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H4Q7FV39",
+        "image": "https://m.media-amazon.com/images/I/813zeT9sUCL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 18,
+        "gender": "women",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0FJR3H93L",
+        "title": "Taiyin 3 Pack Men's Fleece Hoodie Pullover Sweatshirt",
+        "brand": "Taiyin",
+        "price": 39.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FJR3H93L",
+        "image": "https://m.media-amazon.com/images/I/71O4wCGvP7L._AC_SL1500_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 240,
+        "gender": "men",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.42,
+      "markupPct": 0,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B093Q61124-B0BQQMDNBT",
+      "category": "clothing",
+      "productType": "t-shirt",
+      "womens": {
+        "asin": "B093Q61124",
+        "title": "BALENNZ Workout Shirts for Women, Moisture Wicking Quick Dry Active Athletic Women's Gym Performance T Shirts",
+        "brand": "BALENNZ",
+        "price": 22.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B093Q61124",
+        "image": "https://m.media-amazon.com/images/I/81BKFXX53bL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 9721,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0BQQMDNBT",
+        "title": "BALENNZ Workout Shirts for Men Short Sleeve Mens Athletic T-Shirts",
+        "brand": "BALENNZ",
+        "price": 19.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0BQQMDNBT",
+        "image": "https://m.media-amazon.com/images/I/81YBKjIpboL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 9563,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.51,
+      "markupPct": 15,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0H1G7G25Z-B0DX226FQH",
+      "category": "clothing",
+      "productType": "t-shirt",
+      "womens": {
+        "asin": "B0H1G7G25Z",
+        "title": "LOOKFACE 4 Pack Women's Short Sleeve T-Shirts Casual Crewneck Cotton Basic Tee Tops",
+        "brand": "LOOKFACE",
+        "price": 24.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0H1G7G25Z",
+        "image": "https://m.media-amazon.com/images/I/71eBvind26L._AC_SL1500_.jpg",
+        "rating": 4.1,
+        "reviewsCount": 86,
+        "gender": "women",
+        "size": {
+          "value": 4,
+          "unit": "count"
+        }
+      },
+      "mens": {
+        "asin": "B0DX226FQH",
+        "title": "ZITY 3 Pack Men's T-Shirts Cotton Crew Neck Basic Tee Short Sleeve Soft Casual Shirts Summer Tops",
+        "brand": "ZITY",
+        "price": 19.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DX226FQH",
+        "image": "https://m.media-amazon.com/images/I/51LwSmLMuCL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 452,
+        "gender": "men",
+        "size": {
+          "value": 3,
+          "unit": "count"
+        }
+      },
+      "matchScore": 0.43,
+      "markupPct": -6.2,
+      "basis": "unit",
+      "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B0CMW2TLBK-B0DGVP5ZPK",
+      "category": "hygiene",
+      "productType": "body wash",
+      "womens": {
+        "asin": "B0CMW2TLBK",
+        "title": "Cremo Body Wash for Women, White Jasmine Amber, 16 Fl Oz",
+        "brand": "Cremo",
+        "price": 8.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CMW2TLBK",
+        "image": "https://m.media-amazon.com/images/I/51Y1CXPKOGL._SL1500_.jpg",
+        "rating": 4.3,
+        "reviewsCount": 3931,
+        "gender": "women",
+        "size": {
+          "value": 16,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0DGVP5ZPK",
+        "title": "Cremo Body Wash for Men, Italian Bergamot, 32 Fl Oz",
+        "brand": "Cremo",
+        "price": 15.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DGVP5ZPK",
+        "image": "https://m.media-amazon.com/images/I/61LxxLzEdNL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 2849,
+        "gender": "men",
+        "size": {
+          "value": 32,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.68,
+      "markupPct": 6.3,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B07BMXV2D9-B01CKC8O9Y",
+      "category": "hygiene",
+      "productType": "shaving cream",
+      "womens": {
+        "asin": "B07BMXV2D9",
+        "title": "Cremo Shaving Cream for Women, Coconut Mango, 6 Fl Oz (2 Pack)",
+        "brand": "Cremo",
+        "price": 17.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B07BMXV2D9",
+        "image": "https://m.media-amazon.com/images/I/612BcaOzRuL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 11046,
+        "gender": "women",
+        "size": {
+          "value": 12,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B01CKC8O9Y",
+        "title": "Cremo Shaving Cream for Men, Cooling, 6 Fl Oz",
+        "brand": "Cremo",
+        "price": 7.24,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01CKC8O9Y",
+        "image": "https://m.media-amazon.com/images/I/51T4BthaDWL._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 25071,
+        "gender": "men",
+        "size": {
+          "value": 6,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.73,
+      "markupPct": 24.2,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B0FN3RQRSG-B0BP4Q5PQ1",
+      "category": "hygiene",
+      "productType": "shaving cream",
+      "womens": {
+        "asin": "B0FN3RQRSG",
+        "title": "Cremo Shaving Cream for Women, Vanilla Tonka, 6 Fl Oz",
+        "brand": "Cremo",
+        "price": 7.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FN3RQRSG",
+        "image": "https://m.media-amazon.com/images/I/61ZhUriHX3L._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 9830,
+        "gender": "women",
+        "size": {
+          "value": 6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B0BP4Q5PQ1",
+        "title": "Cremo Shaving Cream for Men, Sensitive, 6 Fl Oz",
+        "brand": "Cremo",
+        "price": 7.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0BP4Q5PQ1",
+        "image": "https://m.media-amazon.com/images/I/51-r7cMD5ZL._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 25071,
+        "gender": "men",
+        "size": {
+          "value": 6,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.73,
+      "markupPct": 0.3,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B003FVWRCK-B009WQH8SA",
+      "category": "hygiene",
+      "productType": "shaving cream",
+      "womens": {
+        "asin": "B003FVWRCK",
+        "title": "Cremo Shaving Cream for Women, Coconut Mango, 6 Fl Oz",
+        "brand": "Cremo",
+        "price": 8.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B003FVWRCK",
+        "image": "https://m.media-amazon.com/images/I/51bhuZO+glL._SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 9830,
+        "gender": "women",
+        "size": {
+          "value": 6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B009WQH8SA",
+        "title": "Cremo Shaving Cream for Men, Original, 6 Fl Oz",
+        "brand": "Cremo",
+        "price": 7.26,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B009WQH8SA",
+        "image": "https://m.media-amazon.com/images/I/51eJxd9vfKL._SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 25071,
+        "gender": "men",
+        "size": {
+          "value": 6,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.73,
+      "markupPct": 23.8,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B01ALAVIK4-B00J5J032M",
+      "category": "hygiene",
+      "productType": "shaving cream",
+      "womens": {
+        "asin": "B01ALAVIK4",
+        "title": "Gillette Satin Care Ultra Sensitive Shave Gel for Women, Pack of 2, 7oz Each, Frangrance Free",
+        "brand": "Gillette Venus",
+        "price": 6.97,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01ALAVIK4",
+        "image": "https://m.media-amazon.com/images/I/71Ngy3eJxYL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 35795,
+        "gender": "women",
+        "size": {
+          "value": 14,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B00J5J032M",
+        "title": "Gillette Series Soothing Shaving Gel for Men, Protects Against 5 Signs of Shaving Irritation, Shave Gel With Aloe Vera, Suitable for Sensitive Skin, 2.5 oz",
+        "brand": "Gillette",
+        "price": 4.11,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00J5J032M",
+        "image": "https://m.media-amazon.com/images/I/61CYe4pRcVL._SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 488,
+        "gender": "men",
+        "size": {
+          "value": 2.5,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.62,
+      "markupPct": -69.7,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
     {
       "id": "B0039LMTBU-B0BHL7D2WT",
       "category": "hygiene",
@@ -167,6 +749,306 @@
       "markupPct": -30,
       "basis": "unit",
       "unitLabel": "per item",
+      "hidden": false
+    },
+    {
+      "id": "B01HTJTPPK-B001ET769Y",
+      "category": "hygiene",
+      "productType": "deodorant",
+      "womens": {
+        "asin": "B01HTJTPPK",
+        "title": "Degree Advanced Antiperspirant Deodorant 4 count 72-Hour Sweat & Odor Protection Shower Clean Antiperspirant for Women with MotionSense Technology 2.6 oz",
+        "brand": "Degree",
+        "price": 17.75,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B01HTJTPPK",
+        "image": "https://m.media-amazon.com/images/I/81tnHJvTaTL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 12505,
+        "gender": "women",
+        "size": {
+          "value": 10.4,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B001ET769Y",
+        "title": "Degree Men Original Antiperspirant Deodorant 48-Hour Odor Protection Extreme Blast Mens Deodorant Stick 2.7 oz, 2 Count",
+        "brand": "Degree",
+        "price": 6.96,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B001ET769Y",
+        "image": "https://m.media-amazon.com/images/I/81v8Z7KR8FL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 65764,
+        "gender": "men",
+        "size": {
+          "value": 5.4,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.7,
+      "markupPct": 32.4,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B00J2MIZWW-B075JRT85B",
+      "category": "hygiene",
+      "productType": "deodorant",
+      "womens": {
+        "asin": "B00J2MIZWW",
+        "title": "Degree Women Antiperspirant Deodorant Stick, Shower Clean, 2.6 Ounce (Pack of 1)",
+        "brand": "Degree",
+        "price": 4.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B00J2MIZWW",
+        "image": "https://m.media-amazon.com/images/I/61WAjag8dNL._SL1500_.jpg",
+        "rating": 4.8,
+        "reviewsCount": 20753,
+        "gender": "women",
+        "size": {
+          "value": 2.6,
+          "unit": "oz"
+        }
+      },
+      "mens": {
+        "asin": "B075JRT85B",
+        "title": "Degree Men UltraClear Antiperspirant Deodorant, 2 Count, 2.7 oz",
+        "brand": "Degree",
+        "price": 7.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B075JRT85B",
+        "image": "https://m.media-amazon.com/images/I/81CbbuR+fkL._SL1500_.jpg",
+        "rating": 4.7,
+        "reviewsCount": 43572,
+        "gender": "men",
+        "size": {
+          "value": 5.4,
+          "unit": "oz"
+        }
+      },
+      "matchScore": 0.68,
+      "markupPct": 29.6,
+      "basis": "unit",
+      "unitLabel": "per oz",
+      "hidden": false
+    },
+    {
+      "id": "B0F4LZMVSV-B0F4L8M1RM",
+      "category": "accessories",
+      "productType": "shoes",
+      "womens": {
+        "asin": "B0F4LZMVSV",
+        "title": "New Balance Women's Fresh Foam 520 V9 Running Shoes",
+        "brand": "New Balance",
+        "price": 52.49,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0F4LZMVSV",
+        "image": "https://m.media-amazon.com/images/I/712-gast0cL._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 3153,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0F4L8M1RM",
+        "title": "New Balance Men's Fresh Foam 410v9 Trail Running Shoe",
+        "brand": "New Balance",
+        "price": 46.3,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0F4L8M1RM",
+        "image": "https://m.media-amazon.com/images/I/81H3JcE8FKL._AC_SL1500_.jpg",
+        "rating": 4.1,
+        "reviewsCount": 1562,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.63,
+      "markupPct": 13.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0D7QD3236-B0D7QDH2XQ",
+      "category": "accessories",
+      "productType": "shoes",
+      "womens": {
+        "asin": "B0D7QD3236",
+        "title": "Vans Women's Brooklyn LS Shoe",
+        "brand": "Vans",
+        "price": 52.5,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0D7QD3236",
+        "image": "https://m.media-amazon.com/images/I/71x2i9qY+NL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 3907,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0D7QDH2XQ",
+        "title": "Vans Men's Brooklyn LS Sneakers",
+        "brand": "Vans",
+        "price": 39.98,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0D7QDH2XQ",
+        "image": "https://m.media-amazon.com/images/I/61ABx1cI7BL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 5994,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.63,
+      "markupPct": 31.3,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0F8Z2RXRD-B0CKMCRQ6T",
+      "category": "accessories",
+      "productType": "shoes",
+      "womens": {
+        "asin": "B0F8Z2RXRD",
+        "title": "adidas Women's VL Court 3.0 Sneakers",
+        "brand": "adidas",
+        "price": 79.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0F8Z2RXRD",
+        "image": "https://m.media-amazon.com/images/I/61reW8pxg-L._AC_SL1500_.jpg",
+        "rating": 4.4,
+        "reviewsCount": 10384,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0CKMCRQ6T",
+        "title": "adidas Men's Daily 4.0 Sneakers",
+        "brand": "adidas",
+        "price": 46,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CKMCRQ6T",
+        "image": "https://m.media-amazon.com/images/I/71u50igMLDL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 8550,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.51,
+      "markupPct": 73.9,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DPMF63V5-B0DSHKL8RZ",
+      "category": "accessories",
+      "productType": "bucket hat",
+      "womens": {
+        "asin": "B0DPMF63V5",
+        "title": "FURTALK Summer Straw Beach Sun Hats for Women Wide Brim Packable Bucket Hat",
+        "brand": "FURTALK",
+        "price": 25.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DPMF63V5",
+        "image": "https://m.media-amazon.com/images/I/71xXYUem9SL._AC_SL1500_.jpg",
+        "rating": 4.2,
+        "reviewsCount": 803,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0DSHKL8RZ",
+        "title": "FURTALK Sun Hats for Men Fishing Hat UPF Protection Wide Brim Bucket Hat",
+        "brand": "FURTALK",
+        "price": 14.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DSHKL8RZ",
+        "image": "https://m.media-amazon.com/images/I/711AkdMxl4L._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 1934,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.61,
+      "markupPct": 73.4,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0DSVFTW99-B0DSHMQQSC",
+      "category": "accessories",
+      "productType": "bucket hat",
+      "womens": {
+        "asin": "B0DSVFTW99",
+        "title": "FURTALK Womens Sun Hat with Ponytail Hole Beach Hiking Summer Wide Brim UPF 50+ Outdoor Protection Foldable Bucket Hat",
+        "brand": "FURTALK",
+        "price": 14.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DSVFTW99",
+        "image": "https://m.media-amazon.com/images/I/71XEkzhLccL._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 2358,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0DSHMQQSC",
+        "title": "FURTALK Mens Bucket Sun Hat UPF Protection Wide Brim Breathable Fishing Hat",
+        "brand": "FURTALK",
+        "price": 14.99,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0DSHMQQSC",
+        "image": "https://m.media-amazon.com/images/I/81oOcqaM+2L._AC_SL1500_.jpg",
+        "rating": 4.5,
+        "reviewsCount": 1188,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.6,
+      "markupPct": 0,
+      "basis": "sticker",
+      "unitLabel": null,
+      "hidden": false
+    },
+    {
+      "id": "B0FTDYG1QX-B0CYP46CP7",
+      "category": "accessories",
+      "productType": "bucket hat",
+      "womens": {
+        "asin": "B0FTDYG1QX",
+        "title": "adidas Women's Performance Bucket Hat",
+        "brand": "adidas",
+        "price": 21.43,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0FTDYG1QX",
+        "image": "https://m.media-amazon.com/images/I/71KeDF-nKQL._AC_SL1500_.jpg",
+        "rating": 3.5,
+        "reviewsCount": 7,
+        "gender": "women",
+        "size": null
+      },
+      "mens": {
+        "asin": "B0CYP46CP7",
+        "title": "adidas Mens Victory 5 Bucket Cap Casual - White",
+        "brand": "adidas",
+        "price": 25,
+        "currency": "USD",
+        "url": "https://www.amazon.com/dp/B0CYP46CP7",
+        "image": "https://m.media-amazon.com/images/I/81GyLQyPGYL._AC_SL1500_.jpg",
+        "rating": 4.6,
+        "reviewsCount": 5832,
+        "gender": "men",
+        "size": null
+      },
+      "matchScore": 0.46,
+      "markupPct": -14.3,
+      "basis": "sticker",
+      "unitLabel": null,
       "hidden": false
     }
   ]

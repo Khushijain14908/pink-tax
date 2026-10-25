@@ -1,4 +1,4 @@
-# Pink Tax
+# PinkAPrice
 
 A satirical shopping site that exposes the **pink tax**: products marketed to women that cost more than the same products marketed to men. It compares real Amazon prices (collected with [Bright Data](https://brightdata.com)) and lets you paste any Amazon link to check if it's pink taxed.
 

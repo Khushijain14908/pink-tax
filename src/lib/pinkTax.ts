@@ -46,7 +46,9 @@ export function matchScore(a: Product, b: Product): number {
   const sameBrand = !!brandFamily(a.brand) && brandFamily(a.brand) === brandFamily(b.brand);
   const similarity = jaccard(tokens(a.title, a.brand), tokens(b.title, b.brand));
   const sameUnit = !!a.size && a.size.unit === b.size?.unit;
-  if (similarity < 0.1 || conflictingSpecs(a.title, b.title)) return 0;
+  // A 5-pack vs. a listing with no size, or oz vs. count, can't be compared fairly.
+  const comparableSizes = a.size?.unit === b.size?.unit;
+  if (similarity < 0.1 || !comparableSizes || conflictingSpecs(a.title, b.title)) return 0;
   return (sameBrand ? 0.4 : 0) + 0.45 * similarity + (sameUnit ? 0.15 : 0);
 }
 

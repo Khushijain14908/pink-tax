@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import ComparisonCard from "@/components/ComparisonCard";
+import CategoryBrowser from "@/components/CategoryBrowser";
 import EmptyCatalog from "@/components/EmptyCatalog";
 import { visiblePairs } from "@/lib/catalog";
 import { CATEGORIES } from "@/lib/site";
@@ -13,7 +13,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const category = CATEGORIES.find((c) => c.slug === slug);
   if (!category) notFound();
 
-  const pairs = visiblePairs(slug).sort((a, b) => b.markupPct - a.markupPct);
+  const pairs = visiblePairs(slug);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12">
@@ -23,44 +23,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <p className="mt-2 text-gray-600">{category.blurb}</p>
       </header>
 
-      <div className="flex flex-col gap-8 lg:flex-row">
-        {/* Filters (non-functional placeholder) */}
-        <aside className="w-full shrink-0 rounded-2xl border border-pink-100 bg-pink-50 p-5 lg:w-60">
-          <h2 className="font-semibold text-gray-900">Filters</h2>
-          <FilterGroup title="Sort by" options={["Biggest markup", "Price: low to high", "Brand"]} />
-          <FilterGroup title="Product" options={category.productTypes} />
-          <FilterGroup title="Markup" options={["0–10%", "10–25%", "25%+ (yikes)"]} />
-        </aside>
-
-        {pairs.length ? (
-          <div className="grid flex-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
-            {pairs.map((p) => (
-              <ComparisonCard key={p.id} pair={p} />
-            ))}
-          </div>
-        ) : (
-          <div className="flex-1">
-            <EmptyCatalog />
-          </div>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function FilterGroup({ title, options }: { title: string; options: string[] }) {
-  return (
-    <div className="mt-5">
-      <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">{title}</p>
-      <ul className="mt-2 space-y-1.5 text-sm text-gray-700">
-        {options.map((o) => (
-          <li key={o}>
-            <label className="flex items-center gap-2">
-              <input type="checkbox" className="accent-pink-600" /> {o}
-            </label>
-          </li>
-        ))}
-      </ul>
+      {pairs.length ? (
+        <CategoryBrowser pairs={pairs} productTypes={category.productTypes} />
+      ) : (
+        <EmptyCatalog />
+      )}
     </div>
   );
 }

@@ -65,12 +65,19 @@ const SIZE_PATTERNS: [RegExp, UnitSize["unit"], number][] = [
 ];
 
 export function parseSize(title: string): UnitSize | null {
+  // "1/4/5/6 Pack" lists several options in one listing, so the price's size is unknown.
+  if (/\d+(?:\s*\/\s*\d+)+\s*(?:pack|pk|count|ct)\b/i.test(title)) return null;
+
   const packMatch = title.match(/pack of (\d+)|(\d+)[\s-]*(?:pack|pk)\b/i);
   const pack = packMatch ? Number(packMatch[1] ?? packMatch[2]) : 1;
+  // "2 Count, 2.7 oz" means two 2.7 oz items.
+  const countMatch = title.match(/(\d+)\s*(?:count|ct)\b/i);
 
   for (const [re, unit, factor] of SIZE_PATTERNS) {
     const m = title.match(re);
-    if (m) return { value: Number(m[1]) * factor * pack, unit };
+    if (!m) continue;
+    const multiplier = pack > 1 ? pack : unit === "oz" && countMatch ? Number(countMatch[1]) : 1;
+    return { value: Number(m[1]) * factor * multiplier, unit };
   }
   return pack > 1 ? { value: pack, unit: "count" } : null;
 }

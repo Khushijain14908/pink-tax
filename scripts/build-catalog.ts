@@ -15,9 +15,17 @@ function load(type: string, gender: "women" | "men"): Product[] {
   const file = rawFile(type, gender);
   if (!existsSync(file)) return [];
   const records = JSON.parse(readFileSync(file, "utf8")) as Record<string, unknown>[];
+  const seenTitles = new Set<string>();
   return records
     .map(normalizeProduct)
-    .filter((p): p is Product => p !== null && p.gender === gender);
+    .filter((p): p is Product => p !== null && p.gender === gender)
+    .filter((p) => {
+      // The same product often appears twice (different colors/sellers); keep one.
+      const key = p.title.toLowerCase();
+      if (seenTitles.has(key)) return false;
+      seenTitles.add(key);
+      return true;
+    });
 }
 
 const previous = JSON.parse(readFileSync(CATALOG, "utf8")) as Catalog;

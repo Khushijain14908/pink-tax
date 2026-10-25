@@ -1,5 +1,5 @@
-// Placeholder name — swap this one constant to rebrand the whole site.
-export const SITE_NAME = "[Site Name]";
+// Site name — change this one constant to rebrand the whole site.
+export const SITE_NAME = "PinkAPrice";
 export const TAGLINE = "Same product. Different color. Higher price.";
 
 export type Category = {
@@ -29,6 +29,6 @@ export const CATEGORIES: Category[] = [
     slug: "accessories",
     name: "Accessories",
     blurb: "Accessorize your markup.",
-    productTypes: ["shoes", "hat", "crossbody bag", "phone case"],
+    productTypes: ["shoes", "bucket hat", "crossbody bag", "phone case"],
   },
 ];
