@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pink Tax
 
-## Getting Started
+A satirical shopping site that exposes the **pink tax**: products marketed to women that cost more than the same products marketed to men. It compares real Amazon prices (collected with [Bright Data](https://brightdata.com)) and lets you paste any Amazon link to check if it's pink taxed.
 
-First, run the development server:
+## Run it locally
+
+You need [Node.js](https://nodejs.org) 20 or newer.
 
 ```bash
+git clone https://github.com/wisharray/pink-tax.git
+cd pink-tax
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Bright Data API key (optional)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**You can run the site without a key.** The product catalog is already saved in the repo, so the category pages and home page work. The link checker also works for products in the catalog.
 
-## Learn More
+You only need a key to:
+- check Amazon links that **aren't** in the catalog, or
+- scrape new product data.
 
-To learn more about Next.js, take a look at the following resources:
+Each person uses **their own key**. Never commit a key to GitHub.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Create a free account at [brightdata.com](https://brightdata.com) and create an API key.
+2. Copy the template:
+   ```bash
+   cp .env.example .env.local
+   ```
+3. Paste your key after `BRIGHTDATA_API_KEY=` in `.env.local`.
+4. Restart `npm run dev`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`.env.local` is git-ignored, so your key stays on your computer.
 
-## Deploy on Vercel
+## Updating the product catalog
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The catalog is built in two steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run scrape     # searches Amazon for each product type (uses Bright Data credits)
+npm run catalog    # pairs women's and men's products (free, no API calls)
+```
+
+- Product types are listed in `src/lib/site.ts`.
+- `npm run scrape` skips searches already saved in `scripts/raw/`. Use `npm run scrape -- --force` to refresh prices, or `npm run scrape -- razor` for one product type.
+- Review `src/data/catalog.json` afterward. Set `"hidden": true` on any bad match to hide it from the site. Rerunning `npm run catalog` keeps those choices.
+
+## How it works
+
+| Piece | File |
+|---|---|
+| Bright Data API calls | `src/lib/brightdata.ts` |
+| Matching women's/men's products and calculating markup | `src/lib/pinkTax.ts` |
+| Link checker logic | `src/lib/checkProduct.ts` → `src/app/api/check/route.ts` |
+| Saved catalog | `src/data/catalog.json` |
+
+Markups are compared **per unit** (per oz or per item) when both products list a size, since women's products are often sold in smaller sizes.
