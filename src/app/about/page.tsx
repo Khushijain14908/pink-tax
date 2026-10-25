@@ -156,20 +156,20 @@ export default function AboutPage() {
         necessary healthcare products.
       </p>
       <p className="mt-3 text-gray-700">
-        Raising awareness matters, and so does pushing brands to price more fairly.
+        It is important to raise awareness to this issue and urge brands to be more equitable in their pricing.
       </p>
 
       <h2 className="mt-14 text-2xl font-bold text-gray-900">Why {SITE_NAME}?</h2>
       <p className="mt-3 text-gray-700">
-        We built a store that&apos;s honest about its markups. Browse side-by-side comparisons, or
-        paste any Amazon product link to see if it&apos;s pink taxed.
+        Our website uses satire to criticize and bring attention to the unnecessary mark up in price justified by the smallest features targeting female consumers.
+        Users can browse side-by-side comparisons, or paste any Amazon product link to see if it&apos;s pink taxed.
       </p>
 
       <h2 className="mt-12 text-2xl font-bold text-gray-900">How it works</h2>
       <ol className="mt-3 list-decimal space-y-2 pl-5 text-gray-700">
-        <li>We collect real Amazon prices using Bright Data.</li>
+        <li>We collect real, live Amazon prices using Bright Data.</li>
         <li>We match women&apos;s products with their men&apos;s equivalents from the same brand.</li>
-        <li>We calculate the markup, per ounce or per item when the sizes differ.</li>
+        <li>We calculate the markup, per item when the sizes differ.</li>
       </ol>
 
       <h2 className="mt-14 text-2xl font-bold text-gray-900">Learn More</h2>
