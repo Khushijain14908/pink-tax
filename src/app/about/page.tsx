@@ -1,25 +1,29 @@
 import { SITE_NAME } from "@/lib/site";
 
-const HEADLINE_STATS: { value: string; label: string; source?: { label: string; url: string } }[] = [
-  {
-    value: "$2,400",
-    label: "more paid by women per year for the same goods and services",
-    source: {
-      label: "California Senate, 2020",
-      url: "https://sjud.senate.ca.gov/sites/sjud.senate.ca.gov/files/2.18.2020_sjud_gender_pricing_info_hearing_background_paper.pdf",
-    },
-  },
-  { value: "7%", label: "more expensive, on average, for products targeted at women" },
-  { value: "$188,000", label: "paid in pink tax over a lifetime" },
+type Source = { label: string; url: string };
+type Stat = { value: string; label: string; source: Source };
+
+const NYC_STUDY: Source = {
+  label: "NYC Consumer Affairs, 2015",
+  url: "https://www.nyc.gov/assets/dca/downloads/pdf/partners/Study-of-Gender-Pricing-in-NYC.pdf",
+};
+const CA_SENATE: Source = {
+  label: "California Senate, 2020",
+  url: "https://sjud.senate.ca.gov/sites/sjud.senate.ca.gov/files/2.18.2020_sjud_gender_pricing_info_hearing_background_paper.pdf",
+};
+const EPI_PAY_GAP =
+  "https://www.epi.org/blog/gender-wage-gap-persists-in-2023-women-are-paid-roughly-22-less-than-men-on-average/";
+
+const HEADLINE_STATS: Stat[] = [
+  { value: "$2,400", label: "more paid by women per year for the same goods and services", source: CA_SENATE },
+  { value: "7%", label: "more expensive, on average, for products targeted at women", source: NYC_STUDY },
+  { value: "$188,000", label: "paid in pink tax over a lifetime", source: CA_SENATE },
 ];
 
-const MORE_STATS = [
-  { value: "15%", label: "more to dry-clean women's clothes" },
-  { value: "10%", label: "more for women's jeans" },
-  { value: "24%", label: "more for sneakers marketed to women" },
-  { value: "53%", label: "of women are charged more for a mortgage loan" },
-  { value: "8%", label: "more for adult clothing, on average" },
-  { value: "$2", label: "more for a pink shirt than an identical one in another color" },
+const MORE_STATS: Stat[] = [
+  { value: "15%", label: "more for women's shirts", source: NYC_STUDY },
+  { value: "10%", label: "more for women's jeans", source: NYC_STUDY },
+  { value: "8%", label: "more for adult clothing, on average", source: NYC_STUDY },
 ];
 
 const LAWS = [
@@ -82,24 +86,32 @@ export default function AboutPage() {
           <div key={s.value} className="rounded-2xl bg-pink-600 p-6 text-center text-white">
             <p className="text-3xl font-extrabold">{s.value}</p>
             <p className="mt-2 text-sm text-pink-100">{s.label}</p>
-            {s.source && (
-              <a
-                href={s.source.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 inline-block text-xs text-pink-200 underline-offset-2 hover:text-white hover:underline"
-              >
-                Source: {s.source.label}
-              </a>
-            )}
+            <a
+              href={s.source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-block text-xs text-pink-200 underline-offset-2 hover:text-white hover:underline"
+            >
+              Source: {s.source.label}
+            </a>
           </div>
         ))}
       </div>
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {MORE_STATS.map((s) => (
           <div key={s.label} className="flex items-center gap-4 rounded-2xl bg-pink-50 p-4">
-            <p className="w-20 shrink-0 text-2xl font-extrabold text-pink-600">{s.value}</p>
-            <p className="text-sm text-gray-700">{s.label}</p>
+            <p className="w-14 shrink-0 text-2xl font-extrabold text-pink-600">{s.value}</p>
+            <div>
+              <p className="text-sm text-gray-700">{s.label}</p>
+              <a
+                href={s.source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-gray-400 hover:text-pink-600 hover:underline"
+              >
+                Source: {s.source.label}
+              </a>
+            </div>
           </div>
         ))}
       </div>
@@ -130,7 +142,16 @@ export default function AboutPage() {
       {/* Significance */}
       <h2 className="mt-14 text-2xl font-bold text-gray-900">Why It Matters</h2>
       <p className="mt-3 text-gray-700">
-        Combined with lower salaries (women earn about 20% less than men), the pink tax adds to
+        Combined with lower salaries (women earn about 20% less than men,{" "}
+        <a
+          href={EPI_PAY_GAP}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-pink-600 hover:underline"
+        >
+          per the Economic Policy Institute
+        </a>
+        ), the pink tax adds to
         women&apos;s economic vulnerability, reinforces gender inequality, and limits access to
         necessary healthcare products.
       </p>
