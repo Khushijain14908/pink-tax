@@ -26,14 +26,6 @@ export default function Navbar() {
             <Link href="/about" className="hover:text-pink-600">About</Link>
           </li>
         </ul>
-        <div className="flex items-center gap-2 text-sm">
-          <Link href="/login" className="rounded-full px-4 py-2 font-medium text-gray-700 hover:bg-pink-50">
-            Log in
-          </Link>
-          <Link href="/signup" className="rounded-full bg-pink-600 px-4 py-2 font-semibold text-white hover:bg-pink-700">
-            Sign up
-          </Link>
-        </div>
       </nav>
     </header>
   );
